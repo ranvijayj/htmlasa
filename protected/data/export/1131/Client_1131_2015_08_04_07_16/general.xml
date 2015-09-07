@@ -1,0 +1,102 @@
+<?xml version="1.0"?>
+<wrapper>
+  <client>
+    <row>
+      <field name="Client_ID">1131</field>
+      <field name="Client_Number">1131</field>
+      <field name="Client_Type">1</field>
+      <field name="Client_Status">1</field>
+      <field name="Company_ID">1131</field>
+      <field name="Client_Approval_Amount_1"/>
+      <field name="Client_Approval_Amount_2"/>
+      <field name="Client_Logo_Name"/>
+      <field name="Client_Logo"/>
+    </row>
+  </client>
+  <company>
+    <row>
+      <field name="Company_ID">1131</field>
+      <field name="Company_Name">Acceptic</field>
+      <field name="Company_Fed_ID">77-7777777</field>
+      <field name="SSN"/>
+      <field name="Email"/>
+      <field name="Business_NameW9"/>
+      <field name="Auth_Code"/>
+      <field name="Auth_Url"/>
+      <field name="Temp_Fed_ID_Flag"/>
+    </row>
+    <addresses>
+      <address>
+        <row>
+          <field name="Address_ID">1171</field>
+          <field name="Address1">Kharkov</field>
+          <field name="Address2"/>
+          <field name="City">Kharkov</field>
+          <field name="State">Kh</field>
+          <field name="ZIP">61000</field>
+          <field name="Country"/>
+          <field name="Phone"/>
+          <field name="Fax"/>
+        </row>
+      </address>
+    </addresses>
+  </company>
+  <users_client_list>
+    <row>
+      <field name="User_ID">35</field>
+      <field name="CL_User_Type">User</field>
+      <field name="User_Approval_Value">0</field>
+      <field name="User_Login">TesterUser</field>
+      <field name="User_Type">User</field>
+      <field name="First_Name">Acceptic</field>
+      <field name="Last_Name">User</field>
+      <field name="Email">acctester@ukr.net</field>
+    </row>
+    <row>
+      <field name="User_ID">41</field>
+      <field name="CL_User_Type">User</field>
+      <field name="User_Approval_Value">0</field>
+      <field name="User_Login">AccTester</field>
+      <field name="User_Type">User</field>
+      <field name="First_Name">AccTester</field>
+      <field name="Last_Name">AccTester</field>
+      <field name="Email">acceptictester@gmail.com</field>
+    </row>
+    <row>
+      <field name="User_ID">34</field>
+      <field name="CL_User_Type">Client Admin</field>
+      <field name="User_Approval_Value">100</field>
+      <field name="User_Login">Tester</field>
+      <field name="User_Type">User</field>
+      <field name="First_Name">Acceptic</field>
+      <field name="Last_Name">Tester</field>
+      <field name="Email">andleex@gmail.com</field>
+    </row>
+  </users_client_list>
+  <projects>
+    <row>
+      <field name="Project_ID">1137</field>
+      <field name="Client_ID">1131</field>
+      <field name="Project_Name">Corporate</field>
+      <field name="Project_Description">Description of the Project</field>
+      <field name="Project_Prod_Number"/>
+      <field name="PO_Starting_Number">1000</field>
+      <field name="Ck_Req_Starting_Numb">1000</field>
+      <field name="COA_Manual_Coding">1</field>
+      <field name="COA_Break_Character">/</field>
+      <field name="COA_Break_Number">0</field>
+    </row>
+    <row>
+      <field name="Project_ID">1138</field>
+      <field name="Client_ID">1131</field>
+      <field name="Project_Name">Corporate 2</field>
+      <field name="Project_Description">Corporate 2</field>
+      <field name="Project_Prod_Number">2</field>
+      <field name="PO_Starting_Number">10000</field>
+      <field name="Ck_Req_Starting_Numb">12000</field>
+      <field name="COA_Manual_Coding">1</field>
+      <field name="COA_Break_Character">/</field>
+      <field name="COA_Break_Number">0</field>
+    </row>
+  </projects>
+</wrapper>

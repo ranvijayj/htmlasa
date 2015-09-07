@@ -1,0 +1,285 @@
+<?xml version="1.0"?>
+<wrapper>
+  <document>
+    <row>
+      <field name="W9_ID">6683</field>
+      <field name="Document_ID">3164</field>
+      <field name="Client_ID">1132</field>
+      <field name="W9_Owner_ID">1131</field>
+      <field name="Business_Name">NA</field>
+      <field name="W9_Data_Entry">0</field>
+      <field name="Tax_Class">0</field>
+      <field name="Exempt">0</field>
+      <field name="Account_Nums"/>
+      <field name="Signed">0</field>
+      <field name="Signature_Date"/>
+      <field name="Revision_ID">0</field>
+      <field name="Verified">0</field>
+      <field name="Access_Type">1</field>
+      <field name="Creator_ID">41</field>
+      <field name="DocumentsOrigin">U</field>
+      <field name="DocumentsCreated">2015-06-15 05:57:51</field>
+      <field name="DocumentsProject_ID">1137</field>
+      <field name="File_Name">W9_3164.pdf</field>
+      <field name="Mime_Type">application/pdf</field>
+      <field name="Pages_Count">1</field>
+      <documents>
+        <field name="Document_ID">3164</field>
+        <field name="Document_Type">W9</field>
+        <field name="Origin">U</field>
+        <field name="User_ID">41</field>
+        <field name="Created">2015-06-15 05:57:51</field>
+        <field name="Client_ID">1131</field>
+        <field name="Project_ID">1137</field>
+      </documents>
+      <images>
+        <field name="Image_ID">3153</field>
+      </images>
+    </row>
+    <row>
+      <field name="W9_ID">6685</field>
+      <field name="Document_ID">3208</field>
+      <field name="Client_ID">1134</field>
+      <field name="W9_Owner_ID">1131</field>
+      <field name="Business_Name"/>
+      <field name="W9_Data_Entry">0</field>
+      <field name="Tax_Class">0</field>
+      <field name="Exempt">0</field>
+      <field name="Account_Nums"/>
+      <field name="Signed">0</field>
+      <field name="Signature_Date"/>
+      <field name="Revision_ID">0</field>
+      <field name="Verified">0</field>
+      <field name="Access_Type">1</field>
+      <field name="Creator_ID">34</field>
+      <field name="DocumentsOrigin">U</field>
+      <field name="DocumentsCreated">2015-06-19 05:51:35</field>
+      <field name="DocumentsProject_ID">1137</field>
+      <field name="File_Name">W9_3208.pdf</field>
+      <field name="Mime_Type">application/pdf</field>
+      <field name="Pages_Count">1</field>
+      <documents>
+        <field name="Document_ID">3208</field>
+        <field name="Document_Type">W9</field>
+        <field name="Origin">U</field>
+        <field name="User_ID">34</field>
+        <field name="Created">2015-06-19 05:51:35</field>
+        <field name="Client_ID">1131</field>
+        <field name="Project_ID">1137</field>
+      </documents>
+      <images>
+        <field name="Image_ID">3197</field>
+      </images>
+    </row>
+    <row>
+      <field name="W9_ID">6689</field>
+      <field name="Document_ID">3276</field>
+      <field name="Client_ID">1137</field>
+      <field name="W9_Owner_ID">1131</field>
+      <field name="Business_Name"/>
+      <field name="W9_Data_Entry">34</field>
+      <field name="Tax_Class">SP</field>
+      <field name="Exempt">0</field>
+      <field name="Account_Nums"/>
+      <field name="Signed">1</field>
+      <field name="Signature_Date">2015-06-01</field>
+      <field name="Revision_ID">R0000</field>
+      <field name="Verified">0</field>
+      <field name="Access_Type">1</field>
+      <field name="Creator_ID">34</field>
+      <field name="DocumentsOrigin">U</field>
+      <field name="DocumentsCreated">2015-06-24 07:15:38</field>
+      <field name="DocumentsProject_ID">1137</field>
+      <field name="File_Name">W9_3276.pdf</field>
+      <field name="Mime_Type">application/pdf</field>
+      <field name="Pages_Count">1</field>
+      <documents>
+        <field name="Document_ID">3276</field>
+        <field name="Document_Type">W9</field>
+        <field name="Origin">U</field>
+        <field name="User_ID">34</field>
+        <field name="Created">2015-06-24 07:15:38</field>
+        <field name="Client_ID">1131</field>
+        <field name="Project_ID">1137</field>
+      </documents>
+      <images>
+        <field name="Image_ID">3263</field>
+      </images>
+    </row>
+    <row>
+      <field name="W9_ID">6697</field>
+      <field name="Document_ID">3320</field>
+      <field name="Client_ID">1147</field>
+      <field name="W9_Owner_ID">1131</field>
+      <field name="Business_Name"/>
+      <field name="W9_Data_Entry">0</field>
+      <field name="Tax_Class">0</field>
+      <field name="Exempt">0</field>
+      <field name="Account_Nums"/>
+      <field name="Signed">0</field>
+      <field name="Signature_Date"/>
+      <field name="Revision_ID">0</field>
+      <field name="Verified">0</field>
+      <field name="Access_Type">1</field>
+      <field name="Creator_ID">34</field>
+      <field name="DocumentsOrigin">U</field>
+      <field name="DocumentsCreated">2015-06-26 05:49:21</field>
+      <field name="DocumentsProject_ID">1137</field>
+      <field name="File_Name">W9_3320.pdf</field>
+      <field name="Mime_Type">application/pdf</field>
+      <field name="Pages_Count">1</field>
+      <documents>
+        <field name="Document_ID">3320</field>
+        <field name="Document_Type">W9</field>
+        <field name="Origin">U</field>
+        <field name="User_ID">34</field>
+        <field name="Created">2015-06-26 05:49:21</field>
+        <field name="Client_ID">1131</field>
+        <field name="Project_ID">1137</field>
+      </documents>
+      <images>
+        <field name="Image_ID">3308</field>
+      </images>
+    </row>
+    <row>
+      <field name="W9_ID">6698</field>
+      <field name="Document_ID">3323</field>
+      <field name="Client_ID">1148</field>
+      <field name="W9_Owner_ID">1131</field>
+      <field name="Business_Name"/>
+      <field name="W9_Data_Entry">0</field>
+      <field name="Tax_Class">0</field>
+      <field name="Exempt">0</field>
+      <field name="Account_Nums"/>
+      <field name="Signed">0</field>
+      <field name="Signature_Date"/>
+      <field name="Revision_ID">0</field>
+      <field name="Verified">0</field>
+      <field name="Access_Type">1</field>
+      <field name="Creator_ID">34</field>
+      <field name="DocumentsOrigin">U</field>
+      <field name="DocumentsCreated">2015-06-26 05:53:32</field>
+      <field name="DocumentsProject_ID">1137</field>
+      <field name="File_Name">W9_3323.pdf</field>
+      <field name="Mime_Type">application/pdf</field>
+      <field name="Pages_Count">1</field>
+      <documents>
+        <field name="Document_ID">3323</field>
+        <field name="Document_Type">W9</field>
+        <field name="Origin">U</field>
+        <field name="User_ID">34</field>
+        <field name="Created">2015-06-26 05:53:32</field>
+        <field name="Client_ID">1131</field>
+        <field name="Project_ID">1137</field>
+      </documents>
+      <images>
+        <field name="Image_ID">3311</field>
+      </images>
+    </row>
+    <row>
+      <field name="W9_ID">6699</field>
+      <field name="Document_ID">3324</field>
+      <field name="Client_ID">1148</field>
+      <field name="W9_Owner_ID">1131</field>
+      <field name="Business_Name"/>
+      <field name="W9_Data_Entry">0</field>
+      <field name="Tax_Class">0</field>
+      <field name="Exempt">0</field>
+      <field name="Account_Nums"/>
+      <field name="Signed">0</field>
+      <field name="Signature_Date"/>
+      <field name="Revision_ID">-1</field>
+      <field name="Verified">0</field>
+      <field name="Access_Type">1</field>
+      <field name="Creator_ID">34</field>
+      <field name="DocumentsOrigin">U</field>
+      <field name="DocumentsCreated">2015-06-26 05:54:32</field>
+      <field name="DocumentsProject_ID">1137</field>
+      <field name="File_Name">W9_3324.pdf</field>
+      <field name="Mime_Type">application/pdf</field>
+      <field name="Pages_Count">1</field>
+      <documents>
+        <field name="Document_ID">3324</field>
+        <field name="Document_Type">W9</field>
+        <field name="Origin">U</field>
+        <field name="User_ID">34</field>
+        <field name="Created">2015-06-26 05:54:32</field>
+        <field name="Client_ID">1131</field>
+        <field name="Project_ID">1137</field>
+      </documents>
+      <images>
+        <field name="Image_ID">3312</field>
+      </images>
+    </row>
+    <row>
+      <field name="W9_ID">6701</field>
+      <field name="Document_ID">3328</field>
+      <field name="Client_ID">1131</field>
+      <field name="W9_Owner_ID">1131</field>
+      <field name="Business_Name"/>
+      <field name="W9_Data_Entry">34</field>
+      <field name="Tax_Class">SP</field>
+      <field name="Exempt">0</field>
+      <field name="Account_Nums"/>
+      <field name="Signed">1</field>
+      <field name="Signature_Date">2015-06-01</field>
+      <field name="Revision_ID">R0000</field>
+      <field name="Verified">0</field>
+      <field name="Access_Type">1</field>
+      <field name="Creator_ID">34</field>
+      <field name="DocumentsOrigin">U</field>
+      <field name="DocumentsCreated">2015-06-26 07:24:18</field>
+      <field name="DocumentsProject_ID">1137</field>
+      <field name="File_Name">W9_3328.pdf</field>
+      <field name="Mime_Type">application/pdf</field>
+      <field name="Pages_Count">1</field>
+      <documents>
+        <field name="Document_ID">3328</field>
+        <field name="Document_Type">W9</field>
+        <field name="Origin">U</field>
+        <field name="User_ID">34</field>
+        <field name="Created">2015-06-26 07:24:18</field>
+        <field name="Client_ID">1131</field>
+        <field name="Project_ID">1137</field>
+      </documents>
+      <images>
+        <field name="Image_ID">3316</field>
+      </images>
+    </row>
+    <row>
+      <field name="W9_ID">6702</field>
+      <field name="Document_ID">3329</field>
+      <field name="Client_ID">1131</field>
+      <field name="W9_Owner_ID">1131</field>
+      <field name="Business_Name"/>
+      <field name="W9_Data_Entry">34</field>
+      <field name="Tax_Class">SP</field>
+      <field name="Exempt">0</field>
+      <field name="Account_Nums"/>
+      <field name="Signed">1</field>
+      <field name="Signature_Date">2015-06-26</field>
+      <field name="Revision_ID">R1296</field>
+      <field name="Verified">0</field>
+      <field name="Access_Type">1</field>
+      <field name="Creator_ID">34</field>
+      <field name="DocumentsOrigin">U</field>
+      <field name="DocumentsCreated">2015-06-26 07:25:34</field>
+      <field name="DocumentsProject_ID">1137</field>
+      <field name="File_Name">W9_3329.pdf</field>
+      <field name="Mime_Type">application/pdf</field>
+      <field name="Pages_Count">1</field>
+      <documents>
+        <field name="Document_ID">3329</field>
+        <field name="Document_Type">W9</field>
+        <field name="Origin">U</field>
+        <field name="User_ID">34</field>
+        <field name="Created">2015-06-26 07:25:34</field>
+        <field name="Client_ID">1131</field>
+        <field name="Project_ID">1137</field>
+      </documents>
+      <images>
+        <field name="Image_ID">3317</field>
+      </images>
+    </row>
+  </document>
+</wrapper>

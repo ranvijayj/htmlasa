@@ -1,0 +1,70 @@
+.yiiTab {
+    overflow: hidden;
+}
+
+.yiiTab ul.tabs {
+    float: left;
+    font: bold 12px Verdana,sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.yiiTab ul.tabs li {
+    display: block;
+    list-style: none outside none;
+    margin: 0 0 5px;
+}
+
+.yiiTab ul.tabs a {
+    border: 1px solid #8E8E8E;
+    display: block;
+    margin: 0 5px 0 0;
+    padding: 0px 10px;
+    text-decoration: none;
+    line-height: 34px;
+    color: #000;
+    font-family: "Arial Narrow", Arial;
+    font-size: 15px;
+    font-weight: bold;
+    min-width: 132px;
+}
+
+.yiiTab ul.tabs a:link
+{
+	color: #000;
+}
+
+.yiiTab ul.tabs a:visited
+{
+	color: #000;
+}
+
+.yiiTab ul.tabs a:hover
+{
+    color: #000;
+    background: #E6F2FF;
+    border-color: #8e8e8e;
+}
+
+.yiiTab ul.tabs a.active {
+    background-color: #efeded;
+    border-right: 1px solid #eee;
+    margin-right: -1px;
+}
+
+.yiiTab div.view {
+    background-color: #efeded;
+    border: 1px solid #8E8E8E;
+    margin: 0;
+    min-height: 151px;
+    overflow: hidden;
+    padding: 30px 35px;
+}
+
+.wrapper #tab1, .wrapper #tab2, .wrapper #tab3, .wrapper #tab4,
+.wrapper #tab5, .wrapper #tab6, .wrapper #tab7, .wrapper #tab8,
+.wrapper #tab9 {
+    padding-bottom: 15px !important;
+    min-height: 600px !important;
+}
+

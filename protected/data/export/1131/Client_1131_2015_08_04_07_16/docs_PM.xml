@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<wrapper>
+  <document>
+    <row>
+      <field name="Payment_ID">605</field>
+      <field name="Vendor_ID">6693</field>
+      <field name="Document_ID">3829</field>
+      <field name="Account_Num_ID">0</field>
+      <field name="Payment_Check_Date">2015-08-04</field>
+      <field name="Payment_Check_Number">1</field>
+      <field name="Payment_Amount">500.00</field>
+      <field name="Void">0</field>
+      <field name="DocumentsOrigin">U</field>
+      <field name="DocumentsCreated">2015-08-04 02:30:34</field>
+      <field name="DocumentsProject_ID">1137</field>
+      <field name="File_Name">PM_3829.pdf</field>
+      <field name="Mime_Type">application/pdf</field>
+      <field name="Pages_Count">10</field>
+      <documents>
+        <field name="Document_ID">3829</field>
+        <field name="Document_Type">PM</field>
+        <field name="Origin">U</field>
+        <field name="User_ID">34</field>
+        <field name="Created">2015-08-04 02:30:34</field>
+        <field name="Client_ID">1131</field>
+        <field name="Project_ID">1137</field>
+      </documents>
+      <images>
+        <field name="Image_ID">3810</field>
+      </images>
+    </row>
+  </document>
+</wrapper>

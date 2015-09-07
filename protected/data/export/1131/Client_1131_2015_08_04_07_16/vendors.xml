@@ -1,0 +1,125 @@
+<?xml version="1.0"?>
+<wrapper>
+  <vendors>
+    <row>
+      <field name="Vendor_ID">6693</field>
+      <field name="Vendor_ID_Shortcut"/>
+      <field name="Vendor_Client_ID">1132</field>
+      <field name="Client_Client_ID">1131</field>
+      <field name="Vendor_Name_Checkprint"/>
+      <field name="Vendor_1099"/>
+      <field name="Vendor_Default_GL"/>
+      <field name="Vendor_Default_GL_Note"/>
+      <field name="Vendor_Note_General"/>
+      <field name="Active_Relationship">1</field>
+      <field name="Vendor_Contact"/>
+      <field name="Vendor_Phone"/>
+      <field name="Vendor_Checkprint_Add1"/>
+      <field name="Vendor_Checkprint_Add2"/>
+      <field name="Vendor_Checkprint_City"/>
+      <field name="Vendor_Checkprint_ST"/>
+      <field name="Vendor_Checkprint_Zip"/>
+      <field name="Vendor_Checkprint_Country"/>
+      <field name="Company_Name">New Acceptic Vendor</field>
+      <field name="Company_Fed_ID">IN-0000505</field>
+      <field name="SSN"/>
+      <field name="FullAddress">NA , NA , NA , 12356</field>
+    </row>
+    <row>
+      <field name="Vendor_ID">6695</field>
+      <field name="Vendor_ID_Shortcut"/>
+      <field name="Vendor_Client_ID">1134</field>
+      <field name="Client_Client_ID">1131</field>
+      <field name="Vendor_Name_Checkprint"/>
+      <field name="Vendor_1099"/>
+      <field name="Vendor_Default_GL"/>
+      <field name="Vendor_Default_GL_Note"/>
+      <field name="Vendor_Note_General"/>
+      <field name="Active_Relationship">1</field>
+      <field name="Vendor_Contact"/>
+      <field name="Vendor_Phone"/>
+      <field name="Vendor_Checkprint_Add1"/>
+      <field name="Vendor_Checkprint_Add2"/>
+      <field name="Vendor_Checkprint_City"/>
+      <field name="Vendor_Checkprint_ST"/>
+      <field name="Vendor_Checkprint_Zip"/>
+      <field name="Vendor_Checkprint_Country"/>
+      <field name="Company_Name">Temp International</field>
+      <field name="Company_Fed_ID">IN-0000506</field>
+      <field name="SSN"/>
+      <field name="FullAddress"> ,  ,  , </field>
+    </row>
+    <row>
+      <field name="Vendor_ID">6699</field>
+      <field name="Vendor_ID_Shortcut"/>
+      <field name="Vendor_Client_ID">1137</field>
+      <field name="Client_Client_ID">1131</field>
+      <field name="Vendor_Name_Checkprint"/>
+      <field name="Vendor_1099"/>
+      <field name="Vendor_Default_GL"/>
+      <field name="Vendor_Default_GL_Note"/>
+      <field name="Vendor_Note_General"/>
+      <field name="Active_Relationship">1</field>
+      <field name="Vendor_Contact"/>
+      <field name="Vendor_Phone"/>
+      <field name="Vendor_Checkprint_Add1"/>
+      <field name="Vendor_Checkprint_Add2"/>
+      <field name="Vendor_Checkprint_City"/>
+      <field name="Vendor_Checkprint_ST"/>
+      <field name="Vendor_Checkprint_Zip"/>
+      <field name="Vendor_Checkprint_Country"/>
+      <field name="Company_Name">Test2</field>
+      <field name="Company_Fed_ID">02-2323233</field>
+      <field name="SSN"/>
+      <field name="FullAddress">Lenin Ave , Kharkov , Kh , 61000</field>
+    </row>
+    <row>
+      <field name="Vendor_ID">6709</field>
+      <field name="Vendor_ID_Shortcut"/>
+      <field name="Vendor_Client_ID">1147</field>
+      <field name="Client_Client_ID">1131</field>
+      <field name="Vendor_Name_Checkprint"/>
+      <field name="Vendor_1099"/>
+      <field name="Vendor_Default_GL"/>
+      <field name="Vendor_Default_GL_Note"/>
+      <field name="Vendor_Note_General"/>
+      <field name="Active_Relationship">1</field>
+      <field name="Vendor_Contact"/>
+      <field name="Vendor_Phone"/>
+      <field name="Vendor_Checkprint_Add1"/>
+      <field name="Vendor_Checkprint_Add2"/>
+      <field name="Vendor_Checkprint_City"/>
+      <field name="Vendor_Checkprint_ST"/>
+      <field name="Vendor_Checkprint_Zip"/>
+      <field name="Vendor_Checkprint_Country"/>
+      <field name="Company_Name">Sample Acc</field>
+      <field name="Company_Fed_ID">T0-0000174</field>
+      <field name="SSN"/>
+      <field name="FullAddress"> ,  ,  , </field>
+    </row>
+    <row>
+      <field name="Vendor_ID">6710</field>
+      <field name="Vendor_ID_Shortcut"/>
+      <field name="Vendor_Client_ID">1148</field>
+      <field name="Client_Client_ID">1131</field>
+      <field name="Vendor_Name_Checkprint"/>
+      <field name="Vendor_1099"/>
+      <field name="Vendor_Default_GL"/>
+      <field name="Vendor_Default_GL_Note"/>
+      <field name="Vendor_Note_General"/>
+      <field name="Active_Relationship">1</field>
+      <field name="Vendor_Contact"/>
+      <field name="Vendor_Phone"/>
+      <field name="Vendor_Checkprint_Add1"/>
+      <field name="Vendor_Checkprint_Add2"/>
+      <field name="Vendor_Checkprint_City"/>
+      <field name="Vendor_Checkprint_ST"/>
+      <field name="Vendor_Checkprint_Zip"/>
+      <field name="Vendor_Checkprint_Country"/>
+      <field name="Company_Name">New Test Vendor with very long Company name to display in the grid</field>
+      <field name="Company_Fed_ID">IN-0000507</field>
+      <field name="SSN"/>
+      <field name="FullAddress"> ,  ,  , </field>
+    </row>
+  </vendors>
+</wrapper>

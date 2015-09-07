@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<wrapper>
+  <coas>
+    <row>
+      <field name="COA_ID">157</field>
+      <field name="Client_ID">1131</field>
+      <field name="COA_Acct_Number">1234</field>
+      <field name="Project_ID">1137</field>
+      <field name="COA_Name">First Chart of Account</field>
+      <field name="COA_Class_ID">151</field>
+      <field name="COA_Budget">100.00</field>
+      <field name="COA_Current_Total">100.00</field>
+      <field name="COA_Used">0</field>
+      <field name="Class_Shortcut">AST</field>
+      <field name="Class_Name">Asset</field>
+    </row>
+    <row>
+      <field name="COA_ID">158</field>
+      <field name="Client_ID">1131</field>
+      <field name="COA_Acct_Number">3215</field>
+      <field name="Project_ID">1137</field>
+      <field name="COA_Name">Second Chart Account</field>
+      <field name="COA_Class_ID">151</field>
+      <field name="COA_Budget">200.00</field>
+      <field name="COA_Current_Total">200.00</field>
+      <field name="COA_Used">0</field>
+      <field name="Class_Shortcut">AST</field>
+      <field name="Class_Name">Asset</field>
+    </row>
+  </coas>
+</wrapper>

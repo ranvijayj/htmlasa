@@ -1,0 +1,208 @@
+<?xml version="1.0"?>
+<wrapper>
+  <document>
+    <row>
+      <field name="AP_ID">832</field>
+      <field name="Document_ID">3275</field>
+      <field name="Vendor_ID">0</field>
+      <field name="PO_ID">0</field>
+      <field name="AP_Approval_Value">0.00</field>
+      <field name="Previous_AP_A_Val"/>
+      <field name="Invoice_Amount"/>
+      <field name="Invoice_Number">0</field>
+      <field name="Invoice_Date"/>
+      <field name="Invoice_Reference"/>
+      <field name="Invoice_Due_Date"/>
+      <field name="Detail_1099"/>
+      <field name="Detail_1099_Box_Number"/>
+      <field name="Export_Batch_ID">0</field>
+      <field name="Approved">0</field>
+      <field name="AP_Backup_Document_ID">0</field>
+      <field name="Payment_ID">0</field>
+      <field name="DocumentsOrigin">U</field>
+      <field name="DocumentsCreated">2015-06-24 07:11:29</field>
+      <field name="DocumentsProject_ID">1137</field>
+      <field name="File_Name">AP_3275.pdf</field>
+      <field name="Mime_Type">application/pdf</field>
+      <field name="Pages_Count">1</field>
+      <gl_dist_detail/>
+      <backup/>
+      <payments/>
+      <pos_connected/>
+      <documents>
+        <field name="Document_ID">3275</field>
+        <field name="Document_Type">AP</field>
+        <field name="Origin">U</field>
+        <field name="User_ID">34</field>
+        <field name="Created">2015-06-24 07:11:29</field>
+        <field name="Client_ID">1131</field>
+        <field name="Project_ID">1137</field>
+      </documents>
+      <images>
+        <field name="Image_ID">3262</field>
+      </images>
+    </row>
+    <row>
+      <field name="AP_ID">848</field>
+      <field name="Document_ID">3327</field>
+      <field name="Vendor_ID">6710</field>
+      <field name="PO_ID">0</field>
+      <field name="AP_Approval_Value">100.00</field>
+      <field name="Previous_AP_A_Val">1.00</field>
+      <field name="Invoice_Amount">1000.00</field>
+      <field name="Invoice_Number">CR1000</field>
+      <field name="Invoice_Date">2015-06-26</field>
+      <field name="Invoice_Reference">Description 2</field>
+      <field name="Invoice_Due_Date">2015-06-01</field>
+      <field name="Detail_1099">1</field>
+      <field name="Detail_1099_Box_Number">7</field>
+      <field name="Export_Batch_ID">15103</field>
+      <field name="Approved">1</field>
+      <field name="AP_Backup_Document_ID">0</field>
+      <field name="Payment_ID">0</field>
+      <field name="DocumentsOrigin">G</field>
+      <field name="DocumentsCreated">2015-06-26 06:55:00</field>
+      <field name="DocumentsProject_ID">1137</field>
+      <field name="File_Name">AP_3327.pdf</field>
+      <field name="Mime_Type">application/pdf</field>
+      <field name="Pages_Count">1</field>
+      <gl_dist_detail>
+        <dist_row>
+          <field name="GL_Dist_Detail_ID">381</field>
+          <field name="AP_ID">848</field>
+          <field name="GL_Dist_Detail_COA_Acct_Number">hi-hi-1234-five-five</field>
+          <field name="GL_Dist_Detail_Desc">Description 2</field>
+          <field name="GL_Dist_Detail_Amt">1000.00</field>
+          <field name="GL_Dist_Detail_COA_ShortHand"/>
+          <field name="Short_Hand">hi-1234-five</field>
+        </dist_row>
+      </gl_dist_detail>
+      <backup/>
+      <payments/>
+      <pos_connected/>
+      <documents>
+        <field name="Document_ID">3327</field>
+        <field name="Document_Type">AP</field>
+        <field name="Origin">G</field>
+        <field name="User_ID">34</field>
+        <field name="Created">2015-06-26 06:55:00</field>
+        <field name="Client_ID">1131</field>
+        <field name="Project_ID">1137</field>
+      </documents>
+      <images>
+        <field name="Image_ID">3315</field>
+      </images>
+    </row>
+    <row>
+      <field name="AP_ID">871</field>
+      <field name="Document_ID">3379</field>
+      <field name="Vendor_ID">6710</field>
+      <field name="PO_ID">0</field>
+      <field name="AP_Approval_Value">100.00</field>
+      <field name="Previous_AP_A_Val">1.00</field>
+      <field name="Invoice_Amount">0.50</field>
+      <field name="Invoice_Number">CR1001</field>
+      <field name="Invoice_Date">2015-06-29</field>
+      <field name="Invoice_Reference">sample</field>
+      <field name="Invoice_Due_Date">2015-06-01</field>
+      <field name="Detail_1099">1</field>
+      <field name="Detail_1099_Box_Number">7</field>
+      <field name="Export_Batch_ID">15103</field>
+      <field name="Approved">1</field>
+      <field name="AP_Backup_Document_ID">0</field>
+      <field name="Payment_ID">0</field>
+      <field name="DocumentsOrigin">G</field>
+      <field name="DocumentsCreated">2015-06-29 23:26:32</field>
+      <field name="DocumentsProject_ID">1137</field>
+      <field name="File_Name">AP_3379.pdf</field>
+      <field name="Mime_Type">application/pdf</field>
+      <field name="Pages_Count">1</field>
+      <gl_dist_detail>
+        <dist_row>
+          <field name="GL_Dist_Detail_ID">406</field>
+          <field name="AP_ID">871</field>
+          <field name="GL_Dist_Detail_COA_Acct_Number">hi-hi-122-five-five</field>
+          <field name="GL_Dist_Detail_Desc">sample</field>
+          <field name="GL_Dist_Detail_Amt">0.50</field>
+          <field name="GL_Dist_Detail_COA_ShortHand"/>
+          <field name="Short_Hand">hi-122-five</field>
+        </dist_row>
+      </gl_dist_detail>
+      <backup/>
+      <payments/>
+      <pos_connected/>
+      <documents>
+        <field name="Document_ID">3379</field>
+        <field name="Document_Type">AP</field>
+        <field name="Origin">G</field>
+        <field name="User_ID">34</field>
+        <field name="Created">2015-06-29 23:26:32</field>
+        <field name="Client_ID">1131</field>
+        <field name="Project_ID">1137</field>
+      </documents>
+      <images>
+        <field name="Image_ID">3361</field>
+      </images>
+    </row>
+    <row>
+      <field name="AP_ID">872</field>
+      <field name="Document_ID">3380</field>
+      <field name="Vendor_ID">6693</field>
+      <field name="PO_ID">0</field>
+      <field name="AP_Approval_Value">100.00</field>
+      <field name="Previous_AP_A_Val">1.00</field>
+      <field name="Invoice_Amount">500.00</field>
+      <field name="Invoice_Number">CR1002</field>
+      <field name="Invoice_Date">2015-06-29</field>
+      <field name="Invoice_Reference">descr</field>
+      <field name="Invoice_Due_Date">2015-06-01</field>
+      <field name="Detail_1099">1</field>
+      <field name="Detail_1099_Box_Number">7</field>
+      <field name="Export_Batch_ID">15103</field>
+      <field name="Approved">1</field>
+      <field name="AP_Backup_Document_ID">0</field>
+      <field name="Payment_ID">605</field>
+      <field name="DocumentsOrigin">G</field>
+      <field name="DocumentsCreated">2015-06-29 23:27:04</field>
+      <field name="DocumentsProject_ID">1137</field>
+      <field name="File_Name">AP_3380.pdf</field>
+      <field name="Mime_Type">application/pdf</field>
+      <field name="Pages_Count">1</field>
+      <gl_dist_detail>
+        <dist_row>
+          <field name="GL_Dist_Detail_ID">408</field>
+          <field name="AP_ID">872</field>
+          <field name="GL_Dist_Detail_COA_Acct_Number">hi-hi-11111111111111111111111-five-five</field>
+          <field name="GL_Dist_Detail_Desc">descr</field>
+          <field name="GL_Dist_Detail_Amt">500.00</field>
+          <field name="GL_Dist_Detail_COA_ShortHand"/>
+          <field name="Short_Hand">hi-11111111111111111111111-five</field>
+        </dist_row>
+      </gl_dist_detail>
+      <backup/>
+      <payments>
+        <field name="Payment_ID">605</field>
+        <field name="Vendor_ID">6693</field>
+        <field name="Document_ID">3829</field>
+        <field name="Account_Num_ID">0</field>
+        <field name="Payment_Check_Date">2015-08-04</field>
+        <field name="Payment_Check_Number">1</field>
+        <field name="Payment_Amount">500.00</field>
+        <field name="Void">0</field>
+      </payments>
+      <pos_connected/>
+      <documents>
+        <field name="Document_ID">3380</field>
+        <field name="Document_Type">AP</field>
+        <field name="Origin">G</field>
+        <field name="User_ID">34</field>
+        <field name="Created">2015-06-29 23:27:04</field>
+        <field name="Client_ID">1131</field>
+        <field name="Project_ID">1137</field>
+      </documents>
+      <images>
+        <field name="Image_ID">3362</field>
+      </images>
+    </row>
+  </document>
+</wrapper>

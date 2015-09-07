@@ -1,0 +1,139 @@
+<?xml version="1.0"?>
+<wrapper>
+  <document>
+    <row>
+      <field name="PO_ID">121</field>
+      <field name="Document_ID">3165</field>
+      <field name="Vendor_ID">6693</field>
+      <field name="PO_Number">1000</field>
+      <field name="PO_Account_Number"/>
+      <field name="PO_Date">2015-06-15</field>
+      <field name="PO_Subtotal"/>
+      <field name="PO_Total">912.00</field>
+      <field name="PO_Tax"/>
+      <field name="PO_Delivery_Chg"/>
+      <field name="PO_Other_Chg"/>
+      <field name="Payment_Type">OA</field>
+      <field name="PO_Card_Last_4_Digits"/>
+      <field name="PO_Approval_Value">100</field>
+      <field name="PO_Previous_PO_Val">1</field>
+      <field name="PO_Approved">1</field>
+      <field name="PO_Backup_Document_ID">0</field>
+      <field name="Export_Batch_ID">15086</field>
+      <field name="Sign_Requested_By">41</field>
+      <field name="Sign_Dept_Approval">0</field>
+      <field name="Sign_UPM_Executive">0</field>
+      <field name="Sign_Accounting">0</field>
+      <field name="PO_Pmts_Tracking_Note"/>
+      <field name="DocumentsOrigin">G</field>
+      <field name="DocumentsCreated">2015-06-15 05:58:10</field>
+      <field name="DocumentsProject_ID">1137</field>
+      <field name="File_Name">PO_3165.pdf</field>
+      <field name="Mime_Type">application/pdf</field>
+      <field name="Pages_Count">1</field>
+      <po_dists>
+        <dist_row>
+          <field name="PO_Dists_ID">350</field>
+          <field name="PO_ID">121</field>
+          <field name="PO_Dists_GL_Code">1288</field>
+          <field name="PO_Dists_Amount">912.00</field>
+          <field name="PO_Dists_Description">boxes</field>
+          <field name="PO_Dists_GL_Code_Full"/>
+          <field name="Short_Hand">1288</field>
+        </dist_row>
+      </po_dists>
+      <po_desc_detail>
+        <desc_row>
+          <field name="PO_Desc_ID">630</field>
+          <field name="PO_ID">121</field>
+          <field name="PO_Desc_Qty">2</field>
+          <field name="PO_Desc_Desc">boxes</field>
+          <field name="PO_Desc_Purchase">1</field>
+          <field name="PO_Desc_Rental">0</field>
+          <field name="PO_Desc_Budget_Line_Num">1</field>
+          <field name="PO_Desc_Amount">456.00</field>
+        </desc_row>
+      </po_desc_detail>
+      <backup/>
+      <documents>
+        <field name="Document_ID">3165</field>
+        <field name="Document_Type">PO</field>
+        <field name="Origin">G</field>
+        <field name="User_ID">41</field>
+        <field name="Created">2015-06-15 05:58:10</field>
+        <field name="Client_ID">1131</field>
+        <field name="Project_ID">1137</field>
+      </documents>
+      <images>
+        <field name="Image_ID">3154</field>
+      </images>
+    </row>
+    <row>
+      <field name="PO_ID">143</field>
+      <field name="Document_ID">3378</field>
+      <field name="Vendor_ID">6693</field>
+      <field name="PO_Number">1004</field>
+      <field name="PO_Account_Number"/>
+      <field name="PO_Date">2015-06-29</field>
+      <field name="PO_Subtotal"/>
+      <field name="PO_Total">200.00</field>
+      <field name="PO_Tax"/>
+      <field name="PO_Delivery_Chg"/>
+      <field name="PO_Other_Chg"/>
+      <field name="Payment_Type">OA</field>
+      <field name="PO_Card_Last_4_Digits"/>
+      <field name="PO_Approval_Value">100</field>
+      <field name="PO_Previous_PO_Val">1</field>
+      <field name="PO_Approved">1</field>
+      <field name="PO_Backup_Document_ID">0</field>
+      <field name="Export_Batch_ID">15086</field>
+      <field name="Sign_Requested_By">34</field>
+      <field name="Sign_Dept_Approval">0</field>
+      <field name="Sign_UPM_Executive">0</field>
+      <field name="Sign_Accounting">0</field>
+      <field name="PO_Pmts_Tracking_Note">Test</field>
+      <field name="DocumentsOrigin">G</field>
+      <field name="DocumentsCreated">2015-06-29 23:24:58</field>
+      <field name="DocumentsProject_ID">1137</field>
+      <field name="File_Name">PO_3378.pdf</field>
+      <field name="Mime_Type">application/pdf</field>
+      <field name="Pages_Count">1</field>
+      <po_dists>
+        <dist_row>
+          <field name="PO_Dists_ID">387</field>
+          <field name="PO_ID">143</field>
+          <field name="PO_Dists_GL_Code">hi-hi-hi-hi-1234-five-five-five-five</field>
+          <field name="PO_Dists_Amount">200.00</field>
+          <field name="PO_Dists_Description">Boxes</field>
+          <field name="PO_Dists_GL_Code_Full"/>
+          <field name="Short_Hand">hi-hi-hi-1234-five-five-five</field>
+        </dist_row>
+      </po_dists>
+      <po_desc_detail>
+        <desc_row>
+          <field name="PO_Desc_ID">673</field>
+          <field name="PO_ID">143</field>
+          <field name="PO_Desc_Qty">1</field>
+          <field name="PO_Desc_Desc">Boxes</field>
+          <field name="PO_Desc_Purchase">1</field>
+          <field name="PO_Desc_Rental">0</field>
+          <field name="PO_Desc_Budget_Line_Num">1</field>
+          <field name="PO_Desc_Amount">200.00</field>
+        </desc_row>
+      </po_desc_detail>
+      <backup/>
+      <documents>
+        <field name="Document_ID">3378</field>
+        <field name="Document_Type">PO</field>
+        <field name="Origin">G</field>
+        <field name="User_ID">34</field>
+        <field name="Created">2015-06-29 23:24:58</field>
+        <field name="Client_ID">1131</field>
+        <field name="Project_ID">1137</field>
+      </documents>
+      <images>
+        <field name="Image_ID">3360</field>
+      </images>
+    </row>
+  </document>
+</wrapper>

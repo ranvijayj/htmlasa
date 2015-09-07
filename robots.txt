@@ -1,0 +1,4 @@
+User-Agent: *
+Disallow: /
+Host: http://ec2-54-193-99-10.us-west-1.compute.amazonaws.com
+Sitemap: http://ec2-54-193-99-10.us-west-1.compute.amazonaws.com/sitemap.xml

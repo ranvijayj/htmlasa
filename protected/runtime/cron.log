@@ -1,0 +1,554 @@
+2015/06/09 05:10:01 [trace] [system.CModule] Loading "log" application component
+2015/06/09 17:10:02 [trace] [system.CModule] Loading "log" application component
+2015/06/09 17:10:02 [trace] [system.CModule] Loading "log" application component
+2015/06/09 17:10:02 [trace] [system.CModule] Loading "config" application component
+2015/06/09 17:10:02 [trace] [system.db.ar.CActiveRecord] Config.findAll()
+2015/06/09 17:10:02 [trace] [system.CModule] Loading "db" application component
+2015/06/09 17:10:02 [trace] [system.db.CDbConnection] Opening DB connection
+2015/06/09 17:10:02 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `config`
+2015/06/09 17:10:02 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `config`
+2015/06/09 17:10:02 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `config` `t`
+2015/06/09 17:10:02 [trace] [system.db.ar.CActiveRecord] Clients.findAll()
+2015/06/09 17:10:02 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `clients`
+2015/06/09 17:10:02 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `clients`
+2015/06/09 17:10:02 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `client_service_settings`
+2015/06/09 17:10:02 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `client_service_settings`
+2015/06/09 17:10:02 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `companies`
+2015/06/09 17:10:02 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `companies`
+2015/06/09 17:10:02 [trace] [system.db.CDbCommand] Querying SQL: SELECT `t`.`Client_ID` AS `t0_c0`, `t`.`Client_Number` AS `t0_c1`, `t`.`Client_Type` AS `t0_c2`, `t`.`Client_Status` AS `t0_c3`, `t`.`Company_ID` AS `t0_c4`, `t`.`Client_Approval_Amount_1` AS `t0_c5`, `t`.`Client_Approval_Amount_2` AS `t0_c6`, `t`.`Client_Logo_Name` AS `t0_c7`, `t`.`Client_Logo` AS `t0_c8`, `service_settings`.`Client_ID` AS `t1_c0`, `service_settings`.`Service_Level_ID` AS `t1_c1`, `service_settings`.`Additional_Users` AS `t1_c2`, `service_settings`.`Additional_Projects` AS `t1_c3`, `service_settings`.`Additional_Storage` AS `t1_c4`, `service_settings`.`Fee` AS `t1_c5`, `service_settings`.`Active_To` AS `t1_c6`, `service_settings`.`Locked` AS `t1_c7`, `company`.`Company_ID` AS `t2_c0`, `company`.`Company_Name` AS `t2_c1`, `company`.`Company_Fed_ID` AS `t2_c2`, `company`.`SSN` AS `t2_c3`, `company`.`Email` AS `t2_c4`, `company`.`Business_NameW9` AS `t2_c5`, `company`.`Auth_Code` AS `t2_c6`, `company`.`Auth_Url` AS `t2_c7`, `company`.`Temp_Fed_ID_Flag` AS `t2_c8` FROM `clients` `t`  LEFT OUTER JOIN `client_service_settings` `service_settings` ON (`service_settings`.`Client_ID`=`t`.`Client_ID`)  LEFT OUTER JOIN `companies` `company` ON (`t`.`Company_ID`=`company`.`Company_ID`)  WHERE ((service_settings.Active_To IN ('2015-06-09', '2015-06-16','2015-06-10')) AND (t.Client_Status = '1'))
+2015/06/09 17:10:02 [trace] [system.CModule] Loading "log" application component
+2015/06/09 17:10:02 [trace] [system.CModule] Loading "config" application component
+2015/06/09 17:10:02 [trace] [system.db.ar.CActiveRecord] Config.findAll()
+2015/06/09 17:10:02 [trace] [system.CModule] Loading "db" application component
+2015/06/09 17:10:02 [trace] [system.db.CDbConnection] Opening DB connection
+2015/06/09 17:10:02 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `config`
+2015/06/09 17:10:02 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `config`
+2015/06/09 17:10:02 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `config` `t`
+2015/06/09 17:10:02 [error] [php] unlink(/var/www/html/protected/data/current_uploads_files/22/2015-05-04/thumbnail/Screen Shot 2015-05-04 at 5.05.21 PM.png): Permission denied (/var/www/html/protected/components/FileModification.php:603)
+Stack trace:
+#0 /var/www/html/protected/components/FileModification.php(599): Delete()
+#1 /var/www/html/protected/components/FileModification.php(599): Delete()
+#2 /var/www/html/protected/components/FileModification.php(599): Delete()
+#3 /var/www/html/protected/controllers/CronController.php(316): Delete()
+#4 /var/www/html/protected/controllers/CronController.php(70): junkfilesremoving()
+#5 /var/www/html/protected/commands/JunkTasksCommand.php(10): CommandIndex()
+#6 /var/www/html/framework/console/CConsoleCommandRunner.php(71): JunkTasksCommand->run()
+#7 /var/www/html/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run()
+#8 /var/www/html/framework/base/CApplication.php(180): CConsoleApplication->processRequest()
+#9 /var/www/html/framework/yiic.php(33): CConsoleApplication->run()
+#10 /var/www/html/protected/cron.php(6): require_once()
+
+2015/06/09 17:10:02 [trace] [system.CModule] Loading "errorHandler" application component
+2015/06/10 01:15:01 [trace] [system.CModule] Loading "log" application component
+2015/06/10 01:15:01 [trace] [system.CModule] Loading "config" application component
+2015/06/10 01:15:01 [trace] [system.db.ar.CActiveRecord] Config.findAll()
+2015/06/10 01:15:01 [trace] [system.CModule] Loading "db" application component
+2015/06/10 01:15:01 [trace] [system.db.CDbConnection] Opening DB connection
+2015/06/10 01:15:01 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `config`
+2015/06/10 01:15:01 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `config`
+2015/06/10 01:15:01 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `config` `t`
+2015/06/10 01:15:01 [info] [application] starting testnotification
+2015/06/10 01:15:01 [trace] [system.db.ar.CActiveRecord] MailTemplates.findByPk()
+2015/06/10 01:15:01 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `mail_templates`
+2015/06/10 01:15:01 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `mail_templates`
+2015/06/10 01:15:01 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `mail_templates` `t` WHERE `t`.`Message_ID`=1000 LIMIT 1
+2015/06/10 01:15:01 [info] [application] testnotification finished
+2015/06/10 01:15:01 [trace] [system.db.ar.CActiveRecord] MailTemplates.findByPk()
+2015/06/10 01:15:01 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `mail_templates` `t` WHERE `t`.`Message_ID`=1000 LIMIT 1
+2015/06/10 01:15:01 [trace] [system.db.ar.CActiveRecord] MailsToDelivery.findAll()
+2015/06/10 01:15:01 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `mails_to_delivery`
+2015/06/10 01:15:01 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `mails_to_delivery`
+2015/06/10 01:15:01 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `mails_to_delivery` `t`
+2015/06/10 05:10:01 [trace] [system.CModule] Loading "log" application component
+2015/06/10 05:10:01 [trace] [system.CModule] Loading "log" application component
+2015/06/10 05:10:01 [trace] [system.CModule] Loading "config" application component
+2015/06/10 05:10:01 [trace] [system.db.ar.CActiveRecord] Config.findAll()
+2015/06/10 05:10:01 [trace] [system.CModule] Loading "db" application component
+2015/06/10 05:10:01 [trace] [system.db.CDbConnection] Opening DB connection
+2015/06/10 05:10:01 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `config`
+2015/06/10 05:10:01 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `config`
+2015/06/10 05:10:01 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `config` `t`
+2015/06/10 05:10:01 [error] [php] unlink(/var/www/html/protected/data/current_uploads_files/22/2015-05-04/thumbnail/Screen Shot 2015-05-04 at 5.05.21 PM.png): Permission denied (/var/www/html/protected/components/FileModification.php:603)
+Stack trace:
+#0 /var/www/html/protected/components/FileModification.php(599): Delete()
+#1 /var/www/html/protected/components/FileModification.php(599): Delete()
+#2 /var/www/html/protected/components/FileModification.php(599): Delete()
+#3 /var/www/html/protected/controllers/CronController.php(316): Delete()
+#4 /var/www/html/protected/controllers/CronController.php(70): junkfilesremoving()
+#5 /var/www/html/protected/commands/JunkTasksCommand.php(10): CommandIndex()
+#6 /var/www/html/framework/console/CConsoleCommandRunner.php(71): JunkTasksCommand->run()
+#7 /var/www/html/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run()
+#8 /var/www/html/framework/base/CApplication.php(180): CConsoleApplication->processRequest()
+#9 /var/www/html/framework/yiic.php(33): CConsoleApplication->run()
+#10 /var/www/html/protected/cron.php(6): require_once()
+
+2015/06/10 05:10:01 [trace] [system.CModule] Loading "errorHandler" application component
+2015/06/10 05:10:01 [trace] [system.CModule] Loading "log" application component
+2015/06/10 05:10:01 [trace] [system.CModule] Loading "config" application component
+2015/06/10 05:10:01 [trace] [system.db.ar.CActiveRecord] Config.findAll()
+2015/06/10 05:10:01 [trace] [system.CModule] Loading "db" application component
+2015/06/10 05:10:01 [trace] [system.db.CDbConnection] Opening DB connection
+2015/06/10 05:10:01 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `config`
+2015/06/10 05:10:01 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `config`
+2015/06/10 05:10:01 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `config` `t`
+2015/06/10 05:10:01 [trace] [system.db.ar.CActiveRecord] Clients.findAll()
+2015/06/10 05:10:01 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `clients`
+2015/06/10 05:10:01 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `clients`
+2015/06/10 05:10:01 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `client_service_settings`
+2015/06/10 05:10:01 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `client_service_settings`
+2015/06/10 05:10:01 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `companies`
+2015/06/10 05:10:01 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `companies`
+2015/06/10 05:10:01 [trace] [system.db.CDbCommand] Querying SQL: SELECT `t`.`Client_ID` AS `t0_c0`, `t`.`Client_Number` AS `t0_c1`, `t`.`Client_Type` AS `t0_c2`, `t`.`Client_Status` AS `t0_c3`, `t`.`Company_ID` AS `t0_c4`, `t`.`Client_Approval_Amount_1` AS `t0_c5`, `t`.`Client_Approval_Amount_2` AS `t0_c6`, `t`.`Client_Logo_Name` AS `t0_c7`, `t`.`Client_Logo` AS `t0_c8`, `service_settings`.`Client_ID` AS `t1_c0`, `service_settings`.`Service_Level_ID` AS `t1_c1`, `service_settings`.`Additional_Users` AS `t1_c2`, `service_settings`.`Additional_Projects` AS `t1_c3`, `service_settings`.`Additional_Storage` AS `t1_c4`, `service_settings`.`Fee` AS `t1_c5`, `service_settings`.`Active_To` AS `t1_c6`, `service_settings`.`Locked` AS `t1_c7`, `company`.`Company_ID` AS `t2_c0`, `company`.`Company_Name` AS `t2_c1`, `company`.`Company_Fed_ID` AS `t2_c2`, `company`.`SSN` AS `t2_c3`, `company`.`Email` AS `t2_c4`, `company`.`Business_NameW9` AS `t2_c5`, `company`.`Auth_Code` AS `t2_c6`, `company`.`Auth_Url` AS `t2_c7`, `company`.`Temp_Fed_ID_Flag` AS `t2_c8` FROM `clients` `t`  LEFT OUTER JOIN `client_service_settings` `service_settings` ON (`service_settings`.`Client_ID`=`t`.`Client_ID`)  LEFT OUTER JOIN `companies` `company` ON (`t`.`Company_ID`=`company`.`Company_ID`)  WHERE ((service_settings.Active_To IN ('2015-06-10', '2015-06-17','2015-06-11')) AND (t.Client_Status = '1'))
+2015/06/10 17:10:02 [trace] [system.CModule] Loading "log" application component
+2015/06/10 17:10:02 [trace] [system.CModule] Loading "log" application component
+2015/06/10 17:10:02 [trace] [system.CModule] Loading "config" application component
+2015/06/10 17:10:02 [trace] [system.db.ar.CActiveRecord] Config.findAll()
+2015/06/10 17:10:02 [trace] [system.CModule] Loading "db" application component
+2015/06/10 17:10:02 [trace] [system.db.CDbConnection] Opening DB connection
+2015/06/10 17:10:02 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `config`
+2015/06/10 17:10:02 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `config`
+2015/06/10 17:10:02 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `config` `t`
+2015/06/10 17:10:02 [error] [php] unlink(/var/www/html/protected/data/current_uploads_files/22/2015-05-04/thumbnail/Screen Shot 2015-05-04 at 5.05.21 PM.png): Permission denied (/var/www/html/protected/components/FileModification.php:603)
+Stack trace:
+#0 /var/www/html/protected/components/FileModification.php(599): Delete()
+#1 /var/www/html/protected/components/FileModification.php(599): Delete()
+#2 /var/www/html/protected/components/FileModification.php(599): Delete()
+#3 /var/www/html/protected/controllers/CronController.php(316): Delete()
+#4 /var/www/html/protected/controllers/CronController.php(70): junkfilesremoving()
+#5 /var/www/html/protected/commands/JunkTasksCommand.php(10): CommandIndex()
+#6 /var/www/html/framework/console/CConsoleCommandRunner.php(71): JunkTasksCommand->run()
+#7 /var/www/html/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run()
+#8 /var/www/html/framework/base/CApplication.php(180): CConsoleApplication->processRequest()
+#9 /var/www/html/framework/yiic.php(33): CConsoleApplication->run()
+#10 /var/www/html/protected/cron.php(6): require_once()
+
+2015/06/10 17:10:02 [trace] [system.CModule] Loading "errorHandler" application component
+2015/06/10 17:10:02 [trace] [system.CModule] Loading "log" application component
+2015/06/10 17:10:02 [trace] [system.CModule] Loading "config" application component
+2015/06/10 17:10:02 [trace] [system.db.ar.CActiveRecord] Config.findAll()
+2015/06/10 17:10:02 [trace] [system.CModule] Loading "db" application component
+2015/06/10 17:10:02 [trace] [system.db.CDbConnection] Opening DB connection
+2015/06/10 17:10:02 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `config`
+2015/06/10 17:10:02 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `config`
+2015/06/10 17:10:02 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `config` `t`
+2015/06/10 17:10:02 [trace] [system.db.ar.CActiveRecord] Clients.findAll()
+2015/06/10 17:10:02 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `clients`
+2015/06/10 17:10:02 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `clients`
+2015/06/10 17:10:02 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `client_service_settings`
+2015/06/10 17:10:02 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `client_service_settings`
+2015/06/10 17:10:02 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `companies`
+2015/06/10 17:10:02 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `companies`
+2015/06/10 17:10:02 [trace] [system.db.CDbCommand] Querying SQL: SELECT `t`.`Client_ID` AS `t0_c0`, `t`.`Client_Number` AS `t0_c1`, `t`.`Client_Type` AS `t0_c2`, `t`.`Client_Status` AS `t0_c3`, `t`.`Company_ID` AS `t0_c4`, `t`.`Client_Approval_Amount_1` AS `t0_c5`, `t`.`Client_Approval_Amount_2` AS `t0_c6`, `t`.`Client_Logo_Name` AS `t0_c7`, `t`.`Client_Logo` AS `t0_c8`, `service_settings`.`Client_ID` AS `t1_c0`, `service_settings`.`Service_Level_ID` AS `t1_c1`, `service_settings`.`Additional_Users` AS `t1_c2`, `service_settings`.`Additional_Projects` AS `t1_c3`, `service_settings`.`Additional_Storage` AS `t1_c4`, `service_settings`.`Fee` AS `t1_c5`, `service_settings`.`Active_To` AS `t1_c6`, `service_settings`.`Locked` AS `t1_c7`, `company`.`Company_ID` AS `t2_c0`, `company`.`Company_Name` AS `t2_c1`, `company`.`Company_Fed_ID` AS `t2_c2`, `company`.`SSN` AS `t2_c3`, `company`.`Email` AS `t2_c4`, `company`.`Business_NameW9` AS `t2_c5`, `company`.`Auth_Code` AS `t2_c6`, `company`.`Auth_Url` AS `t2_c7`, `company`.`Temp_Fed_ID_Flag` AS `t2_c8` FROM `clients` `t`  LEFT OUTER JOIN `client_service_settings` `service_settings` ON (`service_settings`.`Client_ID`=`t`.`Client_ID`)  LEFT OUTER JOIN `companies` `company` ON (`t`.`Company_ID`=`company`.`Company_ID`)  WHERE ((service_settings.Active_To IN ('2015-06-10', '2015-06-17','2015-06-11')) AND (t.Client_Status = '1'))
+2015/06/11 01:15:01 [trace] [system.CModule] Loading "log" application component
+2015/06/11 01:15:01 [trace] [system.CModule] Loading "config" application component
+2015/06/11 01:15:01 [trace] [system.db.ar.CActiveRecord] Config.findAll()
+2015/06/11 01:15:01 [trace] [system.CModule] Loading "db" application component
+2015/06/11 01:15:01 [trace] [system.db.CDbConnection] Opening DB connection
+2015/06/11 01:15:01 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `config`
+2015/06/11 01:15:01 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `config`
+2015/06/11 01:15:01 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `config` `t`
+2015/06/11 01:15:01 [info] [application] starting testnotification
+2015/06/11 01:15:01 [trace] [system.db.ar.CActiveRecord] MailTemplates.findByPk()
+2015/06/11 01:15:01 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `mail_templates`
+2015/06/11 01:15:01 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `mail_templates`
+2015/06/11 01:15:01 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `mail_templates` `t` WHERE `t`.`Message_ID`=1000 LIMIT 1
+2015/06/11 01:15:01 [info] [application] testnotification finished
+2015/06/11 01:15:01 [trace] [system.db.ar.CActiveRecord] MailTemplates.findByPk()
+2015/06/11 01:15:01 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `mail_templates` `t` WHERE `t`.`Message_ID`=1000 LIMIT 1
+2015/06/11 01:15:02 [trace] [system.db.ar.CActiveRecord] MailsToDelivery.findAll()
+2015/06/11 01:15:02 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `mails_to_delivery`
+2015/06/11 01:15:02 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `mails_to_delivery`
+2015/06/11 01:15:02 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `mails_to_delivery` `t`
+2015/06/11 05:10:01 [trace] [system.CModule] Loading "log" application component
+2015/06/11 05:10:01 [trace] [system.CModule] Loading "log" application component
+2015/06/11 05:10:01 [trace] [system.CModule] Loading "config" application component
+2015/06/11 05:10:01 [trace] [system.db.ar.CActiveRecord] Config.findAll()
+2015/06/11 05:10:01 [trace] [system.CModule] Loading "db" application component
+2015/06/11 05:10:01 [trace] [system.db.CDbConnection] Opening DB connection
+2015/06/11 05:10:01 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `config`
+2015/06/11 05:10:01 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `config`
+2015/06/11 05:10:01 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `config` `t`
+2015/06/11 05:10:01 [error] [php] unlink(/var/www/html/protected/data/current_uploads_files/22/2015-05-04/thumbnail/Screen Shot 2015-05-04 at 5.05.21 PM.png): Permission denied (/var/www/html/protected/components/FileModification.php:603)
+Stack trace:
+#0 /var/www/html/protected/components/FileModification.php(599): Delete()
+#1 /var/www/html/protected/components/FileModification.php(599): Delete()
+#2 /var/www/html/protected/components/FileModification.php(599): Delete()
+#3 /var/www/html/protected/controllers/CronController.php(316): Delete()
+#4 /var/www/html/protected/controllers/CronController.php(70): junkfilesremoving()
+#5 /var/www/html/protected/commands/JunkTasksCommand.php(10): CommandIndex()
+#6 /var/www/html/framework/console/CConsoleCommandRunner.php(71): JunkTasksCommand->run()
+#7 /var/www/html/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run()
+#8 /var/www/html/framework/base/CApplication.php(180): CConsoleApplication->processRequest()
+#9 /var/www/html/framework/yiic.php(33): CConsoleApplication->run()
+#10 /var/www/html/protected/cron.php(6): require_once()
+
+2015/06/11 05:10:01 [trace] [system.CModule] Loading "errorHandler" application component
+2015/06/11 05:10:01 [trace] [system.CModule] Loading "log" application component
+2015/06/11 05:10:01 [trace] [system.CModule] Loading "config" application component
+2015/06/11 05:10:01 [trace] [system.db.ar.CActiveRecord] Config.findAll()
+2015/06/11 05:10:01 [trace] [system.CModule] Loading "db" application component
+2015/06/11 05:10:01 [trace] [system.db.CDbConnection] Opening DB connection
+2015/06/11 05:10:01 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `config`
+2015/06/11 05:10:01 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `config`
+2015/06/11 05:10:01 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `config` `t`
+2015/06/11 05:10:01 [trace] [system.db.ar.CActiveRecord] Clients.findAll()
+2015/06/11 05:10:01 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `clients`
+2015/06/11 05:10:01 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `clients`
+2015/06/11 05:10:01 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `client_service_settings`
+2015/06/11 05:10:01 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `client_service_settings`
+2015/06/11 05:10:01 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `companies`
+2015/06/11 05:10:01 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `companies`
+2015/06/11 05:10:01 [trace] [system.db.CDbCommand] Querying SQL: SELECT `t`.`Client_ID` AS `t0_c0`, `t`.`Client_Number` AS `t0_c1`, `t`.`Client_Type` AS `t0_c2`, `t`.`Client_Status` AS `t0_c3`, `t`.`Company_ID` AS `t0_c4`, `t`.`Client_Approval_Amount_1` AS `t0_c5`, `t`.`Client_Approval_Amount_2` AS `t0_c6`, `t`.`Client_Logo_Name` AS `t0_c7`, `t`.`Client_Logo` AS `t0_c8`, `service_settings`.`Client_ID` AS `t1_c0`, `service_settings`.`Service_Level_ID` AS `t1_c1`, `service_settings`.`Additional_Users` AS `t1_c2`, `service_settings`.`Additional_Projects` AS `t1_c3`, `service_settings`.`Additional_Storage` AS `t1_c4`, `service_settings`.`Fee` AS `t1_c5`, `service_settings`.`Active_To` AS `t1_c6`, `service_settings`.`Locked` AS `t1_c7`, `company`.`Company_ID` AS `t2_c0`, `company`.`Company_Name` AS `t2_c1`, `company`.`Company_Fed_ID` AS `t2_c2`, `company`.`SSN` AS `t2_c3`, `company`.`Email` AS `t2_c4`, `company`.`Business_NameW9` AS `t2_c5`, `company`.`Auth_Code` AS `t2_c6`, `company`.`Auth_Url` AS `t2_c7`, `company`.`Temp_Fed_ID_Flag` AS `t2_c8` FROM `clients` `t`  LEFT OUTER JOIN `client_service_settings` `service_settings` ON (`service_settings`.`Client_ID`=`t`.`Client_ID`)  LEFT OUTER JOIN `companies` `company` ON (`t`.`Company_ID`=`company`.`Company_ID`)  WHERE ((service_settings.Active_To IN ('2015-06-11', '2015-06-18','2015-06-12')) AND (t.Client_Status = '1'))
+2015/06/11 17:10:01 [trace] [system.CModule] Loading "log" application component
+2015/06/11 17:10:01 [trace] [system.CModule] Loading "log" application component
+2015/06/11 17:10:01 [trace] [system.CModule] Loading "config" application component
+2015/06/11 17:10:01 [trace] [system.db.ar.CActiveRecord] Config.findAll()
+2015/06/11 17:10:01 [trace] [system.CModule] Loading "db" application component
+2015/06/11 17:10:01 [trace] [system.db.CDbConnection] Opening DB connection
+2015/06/11 17:10:01 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `config`
+2015/06/11 17:10:01 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `config`
+2015/06/11 17:10:01 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `config` `t`
+2015/06/11 17:10:01 [error] [php] unlink(/var/www/html/protected/data/current_uploads_files/1/2015-06-11/PhpUnitComposer.png.pdf): Permission denied (/var/www/html/protected/components/FileModification.php:619)
+Stack trace:
+#0 /var/www/html/protected/components/FileModification.php(615): Delete()
+#1 /var/www/html/protected/components/FileModification.php(615): Delete()
+#2 /var/www/html/protected/controllers/CronController.php(316): Delete()
+#3 /var/www/html/protected/controllers/CronController.php(70): junkfilesremoving()
+#4 /var/www/html/protected/commands/JunkTasksCommand.php(10): CommandIndex()
+#5 /var/www/html/framework/console/CConsoleCommandRunner.php(71): JunkTasksCommand->run()
+#6 /var/www/html/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run()
+#7 /var/www/html/framework/base/CApplication.php(180): CConsoleApplication->processRequest()
+#8 /var/www/html/framework/yiic.php(33): CConsoleApplication->run()
+#9 /var/www/html/protected/cron.php(6): require_once()
+
+2015/06/11 17:10:01 [trace] [system.CModule] Loading "errorHandler" application component
+2015/06/11 17:10:01 [trace] [system.CModule] Loading "log" application component
+2015/06/11 17:10:01 [trace] [system.CModule] Loading "config" application component
+2015/06/11 17:10:01 [trace] [system.db.ar.CActiveRecord] Config.findAll()
+2015/06/11 17:10:01 [trace] [system.CModule] Loading "db" application component
+2015/06/11 17:10:01 [trace] [system.db.CDbConnection] Opening DB connection
+2015/06/11 17:10:01 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `config`
+2015/06/11 17:10:01 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `config`
+2015/06/11 17:10:01 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `config` `t`
+2015/06/11 17:10:01 [trace] [system.db.ar.CActiveRecord] Clients.findAll()
+2015/06/11 17:10:01 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `clients`
+2015/06/11 17:10:01 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `clients`
+2015/06/11 17:10:01 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `client_service_settings`
+2015/06/11 17:10:01 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `client_service_settings`
+2015/06/11 17:10:01 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `companies`
+2015/06/11 17:10:01 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `companies`
+2015/06/11 17:10:01 [trace] [system.db.CDbCommand] Querying SQL: SELECT `t`.`Client_ID` AS `t0_c0`, `t`.`Client_Number` AS `t0_c1`, `t`.`Client_Type` AS `t0_c2`, `t`.`Client_Status` AS `t0_c3`, `t`.`Company_ID` AS `t0_c4`, `t`.`Client_Approval_Amount_1` AS `t0_c5`, `t`.`Client_Approval_Amount_2` AS `t0_c6`, `t`.`Client_Logo_Name` AS `t0_c7`, `t`.`Client_Logo` AS `t0_c8`, `service_settings`.`Client_ID` AS `t1_c0`, `service_settings`.`Service_Level_ID` AS `t1_c1`, `service_settings`.`Additional_Users` AS `t1_c2`, `service_settings`.`Additional_Projects` AS `t1_c3`, `service_settings`.`Additional_Storage` AS `t1_c4`, `service_settings`.`Fee` AS `t1_c5`, `service_settings`.`Active_To` AS `t1_c6`, `service_settings`.`Locked` AS `t1_c7`, `company`.`Company_ID` AS `t2_c0`, `company`.`Company_Name` AS `t2_c1`, `company`.`Company_Fed_ID` AS `t2_c2`, `company`.`SSN` AS `t2_c3`, `company`.`Email` AS `t2_c4`, `company`.`Business_NameW9` AS `t2_c5`, `company`.`Auth_Code` AS `t2_c6`, `company`.`Auth_Url` AS `t2_c7`, `company`.`Temp_Fed_ID_Flag` AS `t2_c8` FROM `clients` `t`  LEFT OUTER JOIN `client_service_settings` `service_settings` ON (`service_settings`.`Client_ID`=`t`.`Client_ID`)  LEFT OUTER JOIN `companies` `company` ON (`t`.`Company_ID`=`company`.`Company_ID`)  WHERE ((service_settings.Active_To IN ('2015-06-11', '2015-06-18','2015-06-12')) AND (t.Client_Status = '1'))
+2015/06/12 01:15:02 [trace] [system.CModule] Loading "log" application component
+2015/06/12 01:15:02 [trace] [system.CModule] Loading "config" application component
+2015/06/12 01:15:02 [trace] [system.db.ar.CActiveRecord] Config.findAll()
+2015/06/12 01:15:02 [trace] [system.CModule] Loading "db" application component
+2015/06/12 01:15:02 [trace] [system.db.CDbConnection] Opening DB connection
+2015/06/12 01:15:02 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `config`
+2015/06/12 01:15:02 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `config`
+2015/06/12 01:15:02 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `config` `t`
+2015/06/12 01:15:02 [info] [application] starting testnotification
+2015/06/12 01:15:02 [trace] [system.db.ar.CActiveRecord] MailTemplates.findByPk()
+2015/06/12 01:15:02 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `mail_templates`
+2015/06/12 01:15:02 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `mail_templates`
+2015/06/12 01:15:02 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `mail_templates` `t` WHERE `t`.`Message_ID`=1000 LIMIT 1
+2015/06/12 01:15:02 [info] [application] testnotification finished
+2015/06/12 01:15:02 [trace] [system.db.ar.CActiveRecord] MailTemplates.findByPk()
+2015/06/12 01:15:02 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `mail_templates` `t` WHERE `t`.`Message_ID`=1000 LIMIT 1
+2015/06/12 01:15:02 [trace] [system.db.ar.CActiveRecord] MailsToDelivery.findAll()
+2015/06/12 01:15:02 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `mails_to_delivery`
+2015/06/12 01:15:02 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `mails_to_delivery`
+2015/06/12 01:15:02 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `mails_to_delivery` `t`
+2015/06/12 05:10:01 [trace] [system.CModule] Loading "log" application component
+2015/06/12 05:10:01 [trace] [system.CModule] Loading "log" application component
+2015/06/12 05:10:01 [trace] [system.CModule] Loading "config" application component
+2015/06/12 05:10:01 [trace] [system.db.ar.CActiveRecord] Config.findAll()
+2015/06/12 05:10:01 [trace] [system.CModule] Loading "db" application component
+2015/06/12 05:10:01 [trace] [system.db.CDbConnection] Opening DB connection
+2015/06/12 05:10:01 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `config`
+2015/06/12 05:10:01 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `config`
+2015/06/12 05:10:01 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `config` `t`
+2015/06/12 05:10:01 [error] [php] unlink(/var/www/html/protected/data/current_uploads_files/1/2015-06-11/PhpUnitComposer.png.pdf): Permission denied (/var/www/html/protected/components/FileModification.php:619)
+Stack trace:
+#0 /var/www/html/protected/components/FileModification.php(615): Delete()
+#1 /var/www/html/protected/components/FileModification.php(615): Delete()
+#2 /var/www/html/protected/controllers/CronController.php(316): Delete()
+#3 /var/www/html/protected/controllers/CronController.php(70): junkfilesremoving()
+#4 /var/www/html/protected/commands/JunkTasksCommand.php(10): CommandIndex()
+#5 /var/www/html/framework/console/CConsoleCommandRunner.php(71): JunkTasksCommand->run()
+#6 /var/www/html/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run()
+#7 /var/www/html/framework/base/CApplication.php(180): CConsoleApplication->processRequest()
+#8 /var/www/html/framework/yiic.php(33): CConsoleApplication->run()
+#9 /var/www/html/protected/cron.php(6): require_once()
+
+2015/06/12 05:10:01 [trace] [system.CModule] Loading "errorHandler" application component
+2015/06/12 05:10:01 [trace] [system.CModule] Loading "log" application component
+2015/06/12 05:10:01 [trace] [system.CModule] Loading "config" application component
+2015/06/12 05:10:01 [trace] [system.db.ar.CActiveRecord] Config.findAll()
+2015/06/12 05:10:01 [trace] [system.CModule] Loading "db" application component
+2015/06/12 05:10:01 [trace] [system.db.CDbConnection] Opening DB connection
+2015/06/12 05:10:01 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `config`
+2015/06/12 05:10:01 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `config`
+2015/06/12 05:10:01 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `config` `t`
+2015/06/12 05:10:01 [trace] [system.db.ar.CActiveRecord] Clients.findAll()
+2015/06/12 05:10:01 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `clients`
+2015/06/12 05:10:01 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `clients`
+2015/06/12 05:10:01 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `client_service_settings`
+2015/06/12 05:10:01 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `client_service_settings`
+2015/06/12 05:10:01 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `companies`
+2015/06/12 05:10:01 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `companies`
+2015/06/12 05:10:01 [trace] [system.db.CDbCommand] Querying SQL: SELECT `t`.`Client_ID` AS `t0_c0`, `t`.`Client_Number` AS `t0_c1`, `t`.`Client_Type` AS `t0_c2`, `t`.`Client_Status` AS `t0_c3`, `t`.`Company_ID` AS `t0_c4`, `t`.`Client_Approval_Amount_1` AS `t0_c5`, `t`.`Client_Approval_Amount_2` AS `t0_c6`, `t`.`Client_Logo_Name` AS `t0_c7`, `t`.`Client_Logo` AS `t0_c8`, `service_settings`.`Client_ID` AS `t1_c0`, `service_settings`.`Service_Level_ID` AS `t1_c1`, `service_settings`.`Additional_Users` AS `t1_c2`, `service_settings`.`Additional_Projects` AS `t1_c3`, `service_settings`.`Additional_Storage` AS `t1_c4`, `service_settings`.`Fee` AS `t1_c5`, `service_settings`.`Active_To` AS `t1_c6`, `service_settings`.`Locked` AS `t1_c7`, `company`.`Company_ID` AS `t2_c0`, `company`.`Company_Name` AS `t2_c1`, `company`.`Company_Fed_ID` AS `t2_c2`, `company`.`SSN` AS `t2_c3`, `company`.`Email` AS `t2_c4`, `company`.`Business_NameW9` AS `t2_c5`, `company`.`Auth_Code` AS `t2_c6`, `company`.`Auth_Url` AS `t2_c7`, `company`.`Temp_Fed_ID_Flag` AS `t2_c8` FROM `clients` `t`  LEFT OUTER JOIN `client_service_settings` `service_settings` ON (`service_settings`.`Client_ID`=`t`.`Client_ID`)  LEFT OUTER JOIN `companies` `company` ON (`t`.`Company_ID`=`company`.`Company_ID`)  WHERE ((service_settings.Active_To IN ('2015-06-12', '2015-06-19','2015-06-13')) AND (t.Client_Status = '1'))
+2015/06/12 17:10:01 [trace] [system.CModule] Loading "log" application component
+2015/06/12 17:10:01 [trace] [system.CModule] Loading "log" application component
+2015/06/12 17:10:01 [trace] [system.CModule] Loading "config" application component
+2015/06/12 17:10:01 [trace] [system.db.ar.CActiveRecord] Config.findAll()
+2015/06/12 17:10:01 [trace] [system.CModule] Loading "db" application component
+2015/06/12 17:10:01 [trace] [system.db.CDbConnection] Opening DB connection
+2015/06/12 17:10:01 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `config`
+2015/06/12 17:10:01 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `config`
+2015/06/12 17:10:01 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `config` `t`
+2015/06/12 17:10:01 [error] [php] unlink(/var/www/html/protected/data/current_uploads_files/1/2015-06-11/PhpUnitComposer.png.pdf): Permission denied (/var/www/html/protected/components/FileModification.php:619)
+Stack trace:
+#0 /var/www/html/protected/components/FileModification.php(615): Delete()
+#1 /var/www/html/protected/components/FileModification.php(615): Delete()
+#2 /var/www/html/protected/controllers/CronController.php(316): Delete()
+#3 /var/www/html/protected/controllers/CronController.php(70): junkfilesremoving()
+#4 /var/www/html/protected/commands/JunkTasksCommand.php(10): CommandIndex()
+#5 /var/www/html/framework/console/CConsoleCommandRunner.php(71): JunkTasksCommand->run()
+#6 /var/www/html/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run()
+#7 /var/www/html/framework/base/CApplication.php(180): CConsoleApplication->processRequest()
+#8 /var/www/html/framework/yiic.php(33): CConsoleApplication->run()
+#9 /var/www/html/protected/cron.php(6): require_once()
+
+2015/06/12 17:10:01 [trace] [system.CModule] Loading "errorHandler" application component
+2015/06/12 17:10:01 [trace] [system.CModule] Loading "log" application component
+2015/06/12 17:10:01 [trace] [system.CModule] Loading "config" application component
+2015/06/12 17:10:01 [trace] [system.db.ar.CActiveRecord] Config.findAll()
+2015/06/12 17:10:01 [trace] [system.CModule] Loading "db" application component
+2015/06/12 17:10:01 [trace] [system.db.CDbConnection] Opening DB connection
+2015/06/12 17:10:01 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `config`
+2015/06/12 17:10:01 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `config`
+2015/06/12 17:10:01 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `config` `t`
+2015/06/12 17:10:01 [trace] [system.db.ar.CActiveRecord] Clients.findAll()
+2015/06/12 17:10:01 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `clients`
+2015/06/12 17:10:01 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `clients`
+2015/06/12 17:10:01 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `client_service_settings`
+2015/06/12 17:10:01 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `client_service_settings`
+2015/06/12 17:10:01 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `companies`
+2015/06/12 17:10:01 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `companies`
+2015/06/12 17:10:01 [trace] [system.db.CDbCommand] Querying SQL: SELECT `t`.`Client_ID` AS `t0_c0`, `t`.`Client_Number` AS `t0_c1`, `t`.`Client_Type` AS `t0_c2`, `t`.`Client_Status` AS `t0_c3`, `t`.`Company_ID` AS `t0_c4`, `t`.`Client_Approval_Amount_1` AS `t0_c5`, `t`.`Client_Approval_Amount_2` AS `t0_c6`, `t`.`Client_Logo_Name` AS `t0_c7`, `t`.`Client_Logo` AS `t0_c8`, `service_settings`.`Client_ID` AS `t1_c0`, `service_settings`.`Service_Level_ID` AS `t1_c1`, `service_settings`.`Additional_Users` AS `t1_c2`, `service_settings`.`Additional_Projects` AS `t1_c3`, `service_settings`.`Additional_Storage` AS `t1_c4`, `service_settings`.`Fee` AS `t1_c5`, `service_settings`.`Active_To` AS `t1_c6`, `service_settings`.`Locked` AS `t1_c7`, `company`.`Company_ID` AS `t2_c0`, `company`.`Company_Name` AS `t2_c1`, `company`.`Company_Fed_ID` AS `t2_c2`, `company`.`SSN` AS `t2_c3`, `company`.`Email` AS `t2_c4`, `company`.`Business_NameW9` AS `t2_c5`, `company`.`Auth_Code` AS `t2_c6`, `company`.`Auth_Url` AS `t2_c7`, `company`.`Temp_Fed_ID_Flag` AS `t2_c8` FROM `clients` `t`  LEFT OUTER JOIN `client_service_settings` `service_settings` ON (`service_settings`.`Client_ID`=`t`.`Client_ID`)  LEFT OUTER JOIN `companies` `company` ON (`t`.`Company_ID`=`company`.`Company_ID`)  WHERE ((service_settings.Active_To IN ('2015-06-12', '2015-06-19','2015-06-13')) AND (t.Client_Status = '1'))
+2015/06/13 01:15:01 [trace] [system.CModule] Loading "log" application component
+2015/06/13 01:15:02 [trace] [system.CModule] Loading "config" application component
+2015/06/13 01:15:02 [trace] [system.db.ar.CActiveRecord] Config.findAll()
+2015/06/13 01:15:02 [trace] [system.CModule] Loading "db" application component
+2015/06/13 01:15:02 [trace] [system.db.CDbConnection] Opening DB connection
+2015/06/13 01:15:02 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `config`
+2015/06/13 01:15:02 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `config`
+2015/06/13 01:15:02 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `config` `t`
+2015/06/13 01:15:02 [info] [application] starting testnotification
+2015/06/13 01:15:02 [trace] [system.db.ar.CActiveRecord] MailTemplates.findByPk()
+2015/06/13 01:15:02 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `mail_templates`
+2015/06/13 01:15:02 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `mail_templates`
+2015/06/13 01:15:02 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `mail_templates` `t` WHERE `t`.`Message_ID`=1000 LIMIT 1
+2015/06/13 01:15:02 [info] [application] testnotification finished
+2015/06/13 01:15:02 [trace] [system.db.ar.CActiveRecord] MailTemplates.findByPk()
+2015/06/13 01:15:02 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `mail_templates` `t` WHERE `t`.`Message_ID`=1000 LIMIT 1
+2015/06/13 01:15:02 [trace] [system.db.ar.CActiveRecord] MailsToDelivery.findAll()
+2015/06/13 01:15:02 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `mails_to_delivery`
+2015/06/13 01:15:02 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `mails_to_delivery`
+2015/06/13 01:15:02 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `mails_to_delivery` `t`
+2015/06/13 05:10:01 [trace] [system.CModule] Loading "log" application component
+2015/06/13 05:10:01 [trace] [system.CModule] Loading "log" application component
+2015/06/13 05:10:01 [trace] [system.CModule] Loading "config" application component
+2015/06/13 05:10:01 [trace] [system.db.ar.CActiveRecord] Config.findAll()
+2015/06/13 05:10:01 [trace] [system.CModule] Loading "db" application component
+2015/06/13 05:10:01 [trace] [system.db.CDbConnection] Opening DB connection
+2015/06/13 05:10:01 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `config`
+2015/06/13 05:10:01 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `config`
+2015/06/13 05:10:01 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `config` `t`
+2015/06/13 05:10:01 [error] [php] unlink(/var/www/html/protected/data/current_uploads_files/1/2015-06-11/PhpUnitComposer.png.pdf): Permission denied (/var/www/html/protected/components/FileModification.php:619)
+Stack trace:
+#0 /var/www/html/protected/components/FileModification.php(615): Delete()
+#1 /var/www/html/protected/components/FileModification.php(615): Delete()
+#2 /var/www/html/protected/controllers/CronController.php(316): Delete()
+#3 /var/www/html/protected/controllers/CronController.php(70): junkfilesremoving()
+#4 /var/www/html/protected/commands/JunkTasksCommand.php(10): CommandIndex()
+#5 /var/www/html/framework/console/CConsoleCommandRunner.php(71): JunkTasksCommand->run()
+#6 /var/www/html/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run()
+#7 /var/www/html/framework/base/CApplication.php(180): CConsoleApplication->processRequest()
+#8 /var/www/html/framework/yiic.php(33): CConsoleApplication->run()
+#9 /var/www/html/protected/cron.php(6): require_once()
+
+2015/06/13 05:10:01 [trace] [system.CModule] Loading "errorHandler" application component
+2015/06/13 05:10:01 [trace] [system.CModule] Loading "log" application component
+2015/06/13 05:10:01 [trace] [system.CModule] Loading "config" application component
+2015/06/13 05:10:01 [trace] [system.db.ar.CActiveRecord] Config.findAll()
+2015/06/13 05:10:01 [trace] [system.CModule] Loading "db" application component
+2015/06/13 05:10:01 [trace] [system.db.CDbConnection] Opening DB connection
+2015/06/13 05:10:01 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `config`
+2015/06/13 05:10:01 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `config`
+2015/06/13 05:10:01 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `config` `t`
+2015/06/13 05:10:01 [trace] [system.db.ar.CActiveRecord] Clients.findAll()
+2015/06/13 05:10:01 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `clients`
+2015/06/13 05:10:01 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `clients`
+2015/06/13 05:10:01 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `client_service_settings`
+2015/06/13 05:10:01 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `client_service_settings`
+2015/06/13 05:10:01 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `companies`
+2015/06/13 05:10:01 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `companies`
+2015/06/13 05:10:01 [trace] [system.db.CDbCommand] Querying SQL: SELECT `t`.`Client_ID` AS `t0_c0`, `t`.`Client_Number` AS `t0_c1`, `t`.`Client_Type` AS `t0_c2`, `t`.`Client_Status` AS `t0_c3`, `t`.`Company_ID` AS `t0_c4`, `t`.`Client_Approval_Amount_1` AS `t0_c5`, `t`.`Client_Approval_Amount_2` AS `t0_c6`, `t`.`Client_Logo_Name` AS `t0_c7`, `t`.`Client_Logo` AS `t0_c8`, `service_settings`.`Client_ID` AS `t1_c0`, `service_settings`.`Service_Level_ID` AS `t1_c1`, `service_settings`.`Additional_Users` AS `t1_c2`, `service_settings`.`Additional_Projects` AS `t1_c3`, `service_settings`.`Additional_Storage` AS `t1_c4`, `service_settings`.`Fee` AS `t1_c5`, `service_settings`.`Active_To` AS `t1_c6`, `service_settings`.`Locked` AS `t1_c7`, `company`.`Company_ID` AS `t2_c0`, `company`.`Company_Name` AS `t2_c1`, `company`.`Company_Fed_ID` AS `t2_c2`, `company`.`SSN` AS `t2_c3`, `company`.`Email` AS `t2_c4`, `company`.`Business_NameW9` AS `t2_c5`, `company`.`Auth_Code` AS `t2_c6`, `company`.`Auth_Url` AS `t2_c7`, `company`.`Temp_Fed_ID_Flag` AS `t2_c8` FROM `clients` `t`  LEFT OUTER JOIN `client_service_settings` `service_settings` ON (`service_settings`.`Client_ID`=`t`.`Client_ID`)  LEFT OUTER JOIN `companies` `company` ON (`t`.`Company_ID`=`company`.`Company_ID`)  WHERE ((service_settings.Active_To IN ('2015-06-13', '2015-06-20','2015-06-14')) AND (t.Client_Status = '1'))
+2015/06/13 17:10:01 [trace] [system.CModule] Loading "log" application component
+2015/06/13 17:10:01 [trace] [system.CModule] Loading "log" application component
+2015/06/13 17:10:01 [trace] [system.CModule] Loading "config" application component
+2015/06/13 17:10:01 [trace] [system.db.ar.CActiveRecord] Config.findAll()
+2015/06/13 17:10:01 [trace] [system.CModule] Loading "db" application component
+2015/06/13 17:10:01 [trace] [system.db.CDbConnection] Opening DB connection
+2015/06/13 17:10:01 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `config`
+2015/06/13 17:10:01 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `config`
+2015/06/13 17:10:01 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `config` `t`
+2015/06/13 17:10:01 [error] [php] unlink(/var/www/html/protected/data/current_uploads_files/1/2015-06-11/PhpUnitComposer.png.pdf): Permission denied (/var/www/html/protected/components/FileModification.php:619)
+Stack trace:
+#0 /var/www/html/protected/components/FileModification.php(615): Delete()
+#1 /var/www/html/protected/components/FileModification.php(615): Delete()
+#2 /var/www/html/protected/controllers/CronController.php(316): Delete()
+#3 /var/www/html/protected/controllers/CronController.php(70): junkfilesremoving()
+#4 /var/www/html/protected/commands/JunkTasksCommand.php(10): CommandIndex()
+#5 /var/www/html/framework/console/CConsoleCommandRunner.php(71): JunkTasksCommand->run()
+#6 /var/www/html/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run()
+#7 /var/www/html/framework/base/CApplication.php(180): CConsoleApplication->processRequest()
+#8 /var/www/html/framework/yiic.php(33): CConsoleApplication->run()
+#9 /var/www/html/protected/cron.php(6): require_once()
+
+2015/06/13 17:10:01 [trace] [system.CModule] Loading "errorHandler" application component
+2015/06/13 17:10:01 [trace] [system.CModule] Loading "log" application component
+2015/06/13 17:10:01 [trace] [system.CModule] Loading "config" application component
+2015/06/13 17:10:01 [trace] [system.db.ar.CActiveRecord] Config.findAll()
+2015/06/13 17:10:01 [trace] [system.CModule] Loading "db" application component
+2015/06/13 17:10:01 [trace] [system.db.CDbConnection] Opening DB connection
+2015/06/13 17:10:01 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `config`
+2015/06/13 17:10:01 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `config`
+2015/06/13 17:10:01 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `config` `t`
+2015/06/13 17:10:01 [trace] [system.db.ar.CActiveRecord] Clients.findAll()
+2015/06/13 17:10:01 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `clients`
+2015/06/13 17:10:01 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `clients`
+2015/06/13 17:10:01 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `client_service_settings`
+2015/06/13 17:10:01 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `client_service_settings`
+2015/06/13 17:10:01 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `companies`
+2015/06/13 17:10:01 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `companies`
+2015/06/13 17:10:01 [trace] [system.db.CDbCommand] Querying SQL: SELECT `t`.`Client_ID` AS `t0_c0`, `t`.`Client_Number` AS `t0_c1`, `t`.`Client_Type` AS `t0_c2`, `t`.`Client_Status` AS `t0_c3`, `t`.`Company_ID` AS `t0_c4`, `t`.`Client_Approval_Amount_1` AS `t0_c5`, `t`.`Client_Approval_Amount_2` AS `t0_c6`, `t`.`Client_Logo_Name` AS `t0_c7`, `t`.`Client_Logo` AS `t0_c8`, `service_settings`.`Client_ID` AS `t1_c0`, `service_settings`.`Service_Level_ID` AS `t1_c1`, `service_settings`.`Additional_Users` AS `t1_c2`, `service_settings`.`Additional_Projects` AS `t1_c3`, `service_settings`.`Additional_Storage` AS `t1_c4`, `service_settings`.`Fee` AS `t1_c5`, `service_settings`.`Active_To` AS `t1_c6`, `service_settings`.`Locked` AS `t1_c7`, `company`.`Company_ID` AS `t2_c0`, `company`.`Company_Name` AS `t2_c1`, `company`.`Company_Fed_ID` AS `t2_c2`, `company`.`SSN` AS `t2_c3`, `company`.`Email` AS `t2_c4`, `company`.`Business_NameW9` AS `t2_c5`, `company`.`Auth_Code` AS `t2_c6`, `company`.`Auth_Url` AS `t2_c7`, `company`.`Temp_Fed_ID_Flag` AS `t2_c8` FROM `clients` `t`  LEFT OUTER JOIN `client_service_settings` `service_settings` ON (`service_settings`.`Client_ID`=`t`.`Client_ID`)  LEFT OUTER JOIN `companies` `company` ON (`t`.`Company_ID`=`company`.`Company_ID`)  WHERE ((service_settings.Active_To IN ('2015-06-13', '2015-06-20','2015-06-14')) AND (t.Client_Status = '1'))
+2015/06/14 01:15:01 [trace] [system.CModule] Loading "log" application component
+2015/06/14 01:15:01 [trace] [system.CModule] Loading "config" application component
+2015/06/14 01:15:01 [trace] [system.db.ar.CActiveRecord] Config.findAll()
+2015/06/14 01:15:01 [trace] [system.CModule] Loading "db" application component
+2015/06/14 01:15:01 [trace] [system.db.CDbConnection] Opening DB connection
+2015/06/14 01:15:01 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `config`
+2015/06/14 01:15:01 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `config`
+2015/06/14 01:15:01 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `config` `t`
+2015/06/14 01:15:01 [info] [application] starting testnotification
+2015/06/14 01:15:01 [trace] [system.db.ar.CActiveRecord] MailTemplates.findByPk()
+2015/06/14 01:15:01 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `mail_templates`
+2015/06/14 01:15:01 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `mail_templates`
+2015/06/14 01:15:01 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `mail_templates` `t` WHERE `t`.`Message_ID`=1000 LIMIT 1
+2015/06/14 01:15:01 [info] [application] testnotification finished
+2015/06/14 01:15:01 [trace] [system.db.ar.CActiveRecord] MailTemplates.findByPk()
+2015/06/14 01:15:01 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `mail_templates` `t` WHERE `t`.`Message_ID`=1000 LIMIT 1
+2015/06/14 01:15:01 [trace] [system.db.ar.CActiveRecord] MailsToDelivery.findAll()
+2015/06/14 01:15:01 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `mails_to_delivery`
+2015/06/14 01:15:01 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `mails_to_delivery`
+2015/06/14 01:15:01 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `mails_to_delivery` `t`
+2015/06/14 05:10:01 [trace] [system.CModule] Loading "log" application component
+2015/06/14 05:10:01 [trace] [system.CModule] Loading "log" application component
+2015/06/14 05:10:01 [trace] [system.CModule] Loading "config" application component
+2015/06/14 05:10:01 [trace] [system.db.ar.CActiveRecord] Config.findAll()
+2015/06/14 05:10:01 [trace] [system.CModule] Loading "db" application component
+2015/06/14 05:10:01 [trace] [system.db.CDbConnection] Opening DB connection
+2015/06/14 05:10:01 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `config`
+2015/06/14 05:10:01 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `config`
+2015/06/14 05:10:01 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `config` `t`
+2015/06/14 05:10:01 [error] [php] unlink(/var/www/html/protected/data/current_uploads_files/1/2015-06-11/PhpUnitComposer.png.pdf): Permission denied (/var/www/html/protected/components/FileModification.php:619)
+Stack trace:
+#0 /var/www/html/protected/components/FileModification.php(615): Delete()
+#1 /var/www/html/protected/components/FileModification.php(615): Delete()
+#2 /var/www/html/protected/controllers/CronController.php(316): Delete()
+#3 /var/www/html/protected/controllers/CronController.php(70): junkfilesremoving()
+#4 /var/www/html/protected/commands/JunkTasksCommand.php(10): CommandIndex()
+#5 /var/www/html/framework/console/CConsoleCommandRunner.php(71): JunkTasksCommand->run()
+#6 /var/www/html/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run()
+#7 /var/www/html/framework/base/CApplication.php(180): CConsoleApplication->processRequest()
+#8 /var/www/html/framework/yiic.php(33): CConsoleApplication->run()
+#9 /var/www/html/protected/cron.php(6): require_once()
+
+2015/06/14 05:10:01 [trace] [system.CModule] Loading "errorHandler" application component
+2015/06/14 05:10:01 [trace] [system.CModule] Loading "log" application component
+2015/06/14 05:10:01 [trace] [system.CModule] Loading "config" application component
+2015/06/14 05:10:01 [trace] [system.db.ar.CActiveRecord] Config.findAll()
+2015/06/14 05:10:01 [trace] [system.CModule] Loading "db" application component
+2015/06/14 05:10:01 [trace] [system.db.CDbConnection] Opening DB connection
+2015/06/14 05:10:01 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `config`
+2015/06/14 05:10:01 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `config`
+2015/06/14 05:10:01 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `config` `t`
+2015/06/14 05:10:01 [trace] [system.db.ar.CActiveRecord] Clients.findAll()
+2015/06/14 05:10:01 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `clients`
+2015/06/14 05:10:01 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `clients`
+2015/06/14 05:10:01 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `client_service_settings`
+2015/06/14 05:10:01 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `client_service_settings`
+2015/06/14 05:10:01 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `companies`
+2015/06/14 05:10:01 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `companies`
+2015/06/14 05:10:01 [trace] [system.db.CDbCommand] Querying SQL: SELECT `t`.`Client_ID` AS `t0_c0`, `t`.`Client_Number` AS `t0_c1`, `t`.`Client_Type` AS `t0_c2`, `t`.`Client_Status` AS `t0_c3`, `t`.`Company_ID` AS `t0_c4`, `t`.`Client_Approval_Amount_1` AS `t0_c5`, `t`.`Client_Approval_Amount_2` AS `t0_c6`, `t`.`Client_Logo_Name` AS `t0_c7`, `t`.`Client_Logo` AS `t0_c8`, `service_settings`.`Client_ID` AS `t1_c0`, `service_settings`.`Service_Level_ID` AS `t1_c1`, `service_settings`.`Additional_Users` AS `t1_c2`, `service_settings`.`Additional_Projects` AS `t1_c3`, `service_settings`.`Additional_Storage` AS `t1_c4`, `service_settings`.`Fee` AS `t1_c5`, `service_settings`.`Active_To` AS `t1_c6`, `service_settings`.`Locked` AS `t1_c7`, `company`.`Company_ID` AS `t2_c0`, `company`.`Company_Name` AS `t2_c1`, `company`.`Company_Fed_ID` AS `t2_c2`, `company`.`SSN` AS `t2_c3`, `company`.`Email` AS `t2_c4`, `company`.`Business_NameW9` AS `t2_c5`, `company`.`Auth_Code` AS `t2_c6`, `company`.`Auth_Url` AS `t2_c7`, `company`.`Temp_Fed_ID_Flag` AS `t2_c8` FROM `clients` `t`  LEFT OUTER JOIN `client_service_settings` `service_settings` ON (`service_settings`.`Client_ID`=`t`.`Client_ID`)  LEFT OUTER JOIN `companies` `company` ON (`t`.`Company_ID`=`company`.`Company_ID`)  WHERE ((service_settings.Active_To IN ('2015-06-14', '2015-06-21','2015-06-15')) AND (t.Client_Status = '1'))
+2015/06/14 17:10:01 [trace] [system.CModule] Loading "log" application component
+2015/06/14 17:10:01 [trace] [system.CModule] Loading "log" application component
+2015/06/14 17:10:01 [trace] [system.CModule] Loading "config" application component
+2015/06/14 17:10:01 [trace] [system.db.ar.CActiveRecord] Config.findAll()
+2015/06/14 17:10:01 [trace] [system.CModule] Loading "db" application component
+2015/06/14 17:10:01 [trace] [system.db.CDbConnection] Opening DB connection
+2015/06/14 17:10:01 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `config`
+2015/06/14 17:10:01 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `config`
+2015/06/14 17:10:01 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `config` `t`
+2015/06/14 17:10:01 [error] [php] unlink(/var/www/html/protected/data/current_uploads_files/1/2015-06-11/PhpUnitComposer.png.pdf): Permission denied (/var/www/html/protected/components/FileModification.php:619)
+Stack trace:
+#0 /var/www/html/protected/components/FileModification.php(615): Delete()
+#1 /var/www/html/protected/components/FileModification.php(615): Delete()
+#2 /var/www/html/protected/controllers/CronController.php(316): Delete()
+#3 /var/www/html/protected/controllers/CronController.php(70): junkfilesremoving()
+#4 /var/www/html/protected/commands/JunkTasksCommand.php(10): CommandIndex()
+#5 /var/www/html/framework/console/CConsoleCommandRunner.php(71): JunkTasksCommand->run()
+#6 /var/www/html/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run()
+#7 /var/www/html/framework/base/CApplication.php(180): CConsoleApplication->processRequest()
+#8 /var/www/html/framework/yiic.php(33): CConsoleApplication->run()
+#9 /var/www/html/protected/cron.php(6): require_once()
+
+2015/06/14 17:10:01 [trace] [system.CModule] Loading "errorHandler" application component
+2015/06/14 17:10:01 [trace] [system.CModule] Loading "log" application component
+2015/06/14 17:10:01 [trace] [system.CModule] Loading "config" application component
+2015/06/14 17:10:01 [trace] [system.db.ar.CActiveRecord] Config.findAll()
+2015/06/14 17:10:01 [trace] [system.CModule] Loading "db" application component
+2015/06/14 17:10:01 [trace] [system.db.CDbConnection] Opening DB connection
+2015/06/14 17:10:01 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `config`
+2015/06/14 17:10:01 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `config`
+2015/06/14 17:10:01 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `config` `t`
+2015/06/14 17:10:01 [trace] [system.db.ar.CActiveRecord] Clients.findAll()
+2015/06/14 17:10:01 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `clients`
+2015/06/14 17:10:01 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `clients`
+2015/06/14 17:10:01 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `client_service_settings`
+2015/06/14 17:10:01 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `client_service_settings`
+2015/06/14 17:10:01 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `companies`
+2015/06/14 17:10:01 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `companies`
+2015/06/14 17:10:01 [trace] [system.db.CDbCommand] Querying SQL: SELECT `t`.`Client_ID` AS `t0_c0`, `t`.`Client_Number` AS `t0_c1`, `t`.`Client_Type` AS `t0_c2`, `t`.`Client_Status` AS `t0_c3`, `t`.`Company_ID` AS `t0_c4`, `t`.`Client_Approval_Amount_1` AS `t0_c5`, `t`.`Client_Approval_Amount_2` AS `t0_c6`, `t`.`Client_Logo_Name` AS `t0_c7`, `t`.`Client_Logo` AS `t0_c8`, `service_settings`.`Client_ID` AS `t1_c0`, `service_settings`.`Service_Level_ID` AS `t1_c1`, `service_settings`.`Additional_Users` AS `t1_c2`, `service_settings`.`Additional_Projects` AS `t1_c3`, `service_settings`.`Additional_Storage` AS `t1_c4`, `service_settings`.`Fee` AS `t1_c5`, `service_settings`.`Active_To` AS `t1_c6`, `service_settings`.`Locked` AS `t1_c7`, `company`.`Company_ID` AS `t2_c0`, `company`.`Company_Name` AS `t2_c1`, `company`.`Company_Fed_ID` AS `t2_c2`, `company`.`SSN` AS `t2_c3`, `company`.`Email` AS `t2_c4`, `company`.`Business_NameW9` AS `t2_c5`, `company`.`Auth_Code` AS `t2_c6`, `company`.`Auth_Url` AS `t2_c7`, `company`.`Temp_Fed_ID_Flag` AS `t2_c8` FROM `clients` `t`  LEFT OUTER JOIN `client_service_settings` `service_settings` ON (`service_settings`.`Client_ID`=`t`.`Client_ID`)  LEFT OUTER JOIN `companies` `company` ON (`t`.`Company_ID`=`company`.`Company_ID`)  WHERE ((service_settings.Active_To IN ('2015-06-14', '2015-06-21','2015-06-15')) AND (t.Client_Status = '1'))
+2015/06/15 01:15:01 [trace] [system.CModule] Loading "log" application component
+2015/06/15 01:15:01 [trace] [system.CModule] Loading "config" application component
+2015/06/15 01:15:01 [trace] [system.db.ar.CActiveRecord] Config.findAll()
+2015/06/15 01:15:01 [trace] [system.CModule] Loading "db" application component
+2015/06/15 01:15:01 [trace] [system.db.CDbConnection] Opening DB connection
+2015/06/15 01:15:01 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `config`
+2015/06/15 01:15:01 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `config`
+2015/06/15 01:15:01 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `config` `t`
+2015/06/15 01:15:01 [info] [application] starting testnotification
+2015/06/15 01:15:01 [trace] [system.db.ar.CActiveRecord] MailTemplates.findByPk()
+2015/06/15 01:15:01 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `mail_templates`
+2015/06/15 01:15:01 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `mail_templates`
+2015/06/15 01:15:01 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `mail_templates` `t` WHERE `t`.`Message_ID`=1000 LIMIT 1
+2015/06/15 01:15:02 [info] [application] testnotification finished
+2015/06/15 01:15:02 [trace] [system.db.ar.CActiveRecord] MailTemplates.findByPk()
+2015/06/15 01:15:02 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `mail_templates` `t` WHERE `t`.`Message_ID`=1000 LIMIT 1
+2015/06/15 01:15:02 [trace] [system.db.ar.CActiveRecord] MailsToDelivery.findAll()
+2015/06/15 01:15:02 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `mails_to_delivery`
+2015/06/15 01:15:02 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `mails_to_delivery`
+2015/06/15 01:15:02 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `mails_to_delivery` `t`

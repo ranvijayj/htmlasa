@@ -1,0 +1,9 @@
+@-moz-document url-prefix()
+{
+   @font-face
+   {
+       font-family: "Arial Narrow";
+       src: local("Arial Narrow"),
+       url(font/ARIALN.TTF)
+   }
+}

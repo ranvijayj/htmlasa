@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<wrapper>
+  <client_id>
+    <field>1131</field>
+    <files_names>
+      <field>documents.xml</field>
+      <field>/opt/code/html/protected/data/export/1131/Client_1131_2015_08_04_07_16/general.xml</field>
+      <field>/opt/code/html/protected/data/export/1131/Client_1131_2015_08_04_07_16/vendors.xml</field>
+      <field>/opt/code/html/protected/data/export/1131/Client_1131_2015_08_04_07_16/coas.xml</field>
+      <field>/opt/code/html/protected/data/export/1131/Client_1131_2015_08_04_07_16/docs_W9.xml</field>
+      <field>/opt/code/html/protected/data/export/1131/Client_1131_2015_08_04_07_16/docs_PO.xml</field>
+      <field>/opt/code/html/protected/data/export/1131/Client_1131_2015_08_04_07_16/docs_AP.xml</field>
+      <field>/opt/code/html/protected/data/export/1131/Client_1131_2015_08_04_07_16/docs_PM.xml</field>
+    </files_names>
+  </client_id>
+</wrapper>
